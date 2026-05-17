@@ -34,8 +34,8 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-linkedin: https://www.linkedin.com/in/camille-bergeron/
-github: https://github.com/camilleberg
+linkedin: camille-bergeron
+github: camilleberg
 email: cghb@uw.edu
 
 authors:

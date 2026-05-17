@@ -17,8 +17,10 @@ dark-theme: false
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+# but I amde this a new page
+
+# resume-external: true
+# resume-url: https://google.com/?q=my+resume
 
 url: https://camilleberg.github.io
 # your url: https://USERNAME.github.io
@@ -55,7 +57,6 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-resume: true
 # blog: true
 
 # do you want to show the "read time" of the posts?

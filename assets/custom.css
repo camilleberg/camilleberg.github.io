@@ -1,0 +1,320 @@
+/* ============================================================
+   CUSTOM PALETTE OVERRIDE — camilleberg.github.io
+   Drop this file at: assets/css/custom.css
+   Then add to _config.yml:  (already done in the updated config)
+   ============================================================ */
+
+/* ----------------------------------------------------------
+   1. PALETTE VARIABLES
+   Defined once here, referenced everywhere below.
+   Changing a value here updates every element that uses it.
+   ---------------------------------------------------------- */
+:root {
+  --wisteria-blue: #7aa1d0;   /* cool blue — links, active states */
+  --wisteria:      #afa5cf;   /* soft purple — dates, metadata    */
+  --muted-teal:    #9ec1a3;   /* sage green — tags, accents       */
+  --tea-green:     #cfe0c3;   /* pale mint — headings on dark bg  */
+  --jet-black:     #1f363d;   /* dark teal-black — bg, nav, hero  */
+
+  /* Derived shades (lightened/darkened variants for depth) */
+  --jet-light:     #2d4f59;   /* slightly lighter jet — hover bg  */
+  --jet-lighter:   #3a6472;   /* sidebar borders, dividers        */
+  --cream:         #f4f6f2;   /* near-white with a green tint     */
+  --body-text:     #2a4248;   /* dark enough to read on --cream   */
+  --muted-text:    #5e7f87;   /* secondary body text              */
+}
+
+
+/* ----------------------------------------------------------
+   2. GLOBAL BODY & BACKGROUND
+   Replace the theme's default white (#fff) background.
+   --cream is warmer and picks up the green in --tea-green.
+   ---------------------------------------------------------- */
+body {
+  background-color: var(--cream);
+  color: var(--body-text);
+}
+
+
+/* ----------------------------------------------------------
+   3. NAVIGATION / HEADER
+   The Indigo theme renders a <header class="main-header">
+   with a dark bar. We override its background to --jet-black
+   and recolor the site title and nav links.
+   ---------------------------------------------------------- */
+.main-header {
+  background-color: var(--jet-black);
+  border-bottom: 2px solid var(--wisteria-blue); /* thin accent line */
+}
+
+/* Site title ("Camille Bergeron") */
+.main-header .logo a {
+  color: var(--tea-green);        /* pale mint stands out on dark */
+}
+
+/* Nav links: About, Blog, Projects, Résumé */
+.main-header nav a {
+  color: #b8cfc4;                 /* muted version of --muted-teal */
+}
+
+/* Nav link on hover or when current page */
+.main-header nav a:hover,
+.main-header nav a.active {
+  color: var(--tea-green);
+  border-bottom: 2px solid var(--muted-teal); /* underline indicator */
+}
+
+
+/* ----------------------------------------------------------
+   4. POST / PAGE LINKS
+   The Indigo theme styles post titles and inline links.
+   We replace its default blue/black with --wisteria-blue.
+   ---------------------------------------------------------- */
+a {
+  color: var(--wisteria-blue);
+}
+
+a:hover {
+  color: var(--jet-light);        /* darkens slightly on hover     */
+}
+
+/* Post list item titles (blog, projects pages) */
+.list .item h3.title {
+  color: var(--jet-black);
+}
+
+.list .item:hover h3.title {
+  color: var(--wisteria-blue);
+}
+
+
+/* ----------------------------------------------------------
+   5. POST DATES (aside > time)
+   The little timestamp next to each post title.
+   --wisteria gives a soft purple-grey that doesn't compete
+   with the post title but is still legible.
+   ---------------------------------------------------------- */
+.list .item aside time,
+.post-info time,
+.post-info .tag {
+  color: var(--wisteria);
+}
+
+
+/* ----------------------------------------------------------
+   6. TAGS / BADGES
+   Tags appear on post pages and the tags.html listing.
+   We give them a teal background with a subtle border.
+   ---------------------------------------------------------- */
+.tag-list h2.title,
+.tags-cloud a,
+.post-info .tag {
+  background-color: rgba(158, 193, 163, 0.15); /* --muted-teal at 15% */
+  border: 1px solid rgba(158, 193, 163, 0.40);
+  color: var(--jet-light);
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+}
+
+/* Tag section headers (#tag-name anchors on tags.html) */
+.tag-list h2.title {
+  color: var(--muted-teal);
+  border-bottom: 1px solid rgba(158, 193, 163, 0.25);
+}
+
+
+/* ----------------------------------------------------------
+   7. HERO / HOME PROFILE SECTION
+   The Indigo home page renders a profile block with the
+   site title and bio. We give it the jet-black treatment
+   so it reads as a deliberate "hero" zone.
+   ---------------------------------------------------------- */
+.about-wrapper,          /* Indigo's home profile container    */
+.profile-image-wrapper { /* wraps the circular profile photo   */
+  background-color: var(--jet-black);
+}
+
+/* Name displayed large on the home page */
+.about-wrapper h1,
+.about-wrapper .name {
+  color: var(--tea-green);
+}
+
+/* Tagline / bio line below the name */
+.about-wrapper p,
+.about-wrapper .bio {
+  color: var(--wisteria);
+  font-style: italic;
+}
+
+/* Social icon links in the profile block */
+.about-wrapper .social a,
+.icons a {
+  color: var(--muted-teal);
+}
+
+.about-wrapper .social a:hover,
+.icons a:hover {
+  color: var(--tea-green);
+}
+
+/* Circular profile photo border */
+.profile-image {
+  border: 3px solid var(--wisteria-blue);
+}
+
+
+/* ----------------------------------------------------------
+   8. POST CONTENT AREA
+   The main <article> or <section> block where post prose
+   lives. We make sure headings use --jet-black for weight
+   and blockquotes pick up the teal accent.
+   ---------------------------------------------------------- */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  color: var(--jet-black);
+}
+
+/* Blockquote — left border in wisteria-blue */
+.post-content blockquote {
+  border-left: 3px solid var(--wisteria-blue);
+  color: var(--muted-text);
+  background: rgba(122, 161, 208, 0.06); /* very faint blue wash */
+  padding: 0.75rem 1rem;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Inline code */
+.post-content code {
+  background: rgba(175, 165, 207, 0.15); /* wisteria tint */
+  color: var(--jet-light);
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+/* Code blocks */
+.post-content pre {
+  background: var(--jet-black);
+  color: var(--tea-green);
+  border-left: 3px solid var(--muted-teal);
+}
+
+
+/* ----------------------------------------------------------
+   9. FOOTER
+   Indigo renders a <footer> at the bottom of every page.
+   We match it to the nav so the page feels bookended.
+   ---------------------------------------------------------- */
+footer {
+  background-color: var(--jet-black);
+  border-top: 1px solid rgba(122, 161, 208, 0.20);
+  color: #b8cfc4;
+}
+
+footer a {
+  color: var(--wisteria-blue);
+}
+
+footer a:hover {
+  color: var(--tea-green);
+}
+
+
+/* ----------------------------------------------------------
+   10. BUTTONS & READ-MORE LINKS
+   Indigo uses <a class="button"> in some layouts.
+   We style these as an outlined pill using --wisteria-blue.
+   ---------------------------------------------------------- */
+a.button,
+.read-more a {
+  border: 1px solid var(--wisteria-blue);
+  color: var(--wisteria-blue);
+  border-radius: 20px;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+a.button:hover,
+.read-more a:hover {
+  background: var(--wisteria-blue);
+  color: var(--cream);
+}
+
+
+/* ----------------------------------------------------------
+   11. SKILL LIST (about.md)
+   The <ul class="skill-list"> in about.md gets small chips.
+   ---------------------------------------------------------- */
+ul.skill-list li {
+  display: inline-block;
+  background: rgba(175, 165, 207, 0.12); /* wisteria wash */
+  border: 1px solid rgba(175, 165, 207, 0.35);
+  color: var(--jet-light);
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin: 3px 2px;
+  font-size: 0.8rem;
+  list-style: none;
+}
+
+
+/* ----------------------------------------------------------
+   12. PAGINATION
+   Previous / Next links between posts.
+   ---------------------------------------------------------- */
+.pagination a {
+  color: var(--wisteria-blue);
+  border: 1px solid rgba(122, 161, 208, 0.35);
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.pagination a:hover {
+  background: var(--wisteria-blue);
+  color: var(--cream);
+}
+
+.pagination .current {
+  background: var(--jet-black);
+  color: var(--tea-green);
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+
+/* ----------------------------------------------------------
+   13. DISQUS SECTION DIVIDER
+   A thin rule above the comments section.
+   ---------------------------------------------------------- */
+#disqus_thread {
+  border-top: 1px solid rgba(122, 161, 208, 0.20);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+
+/* ----------------------------------------------------------
+   14. 404 PAGE
+   The lost-container centred on the 404 page.
+   ---------------------------------------------------------- */
+.lost-container h1 {
+  color: var(--wisteria);       /* soft, non-alarming error color */
+}
+
+.lost-container a {
+  border: 1px solid var(--muted-teal);
+  color: var(--muted-teal);
+  border-radius: 20px;
+  padding: 6px 20px;
+  text-decoration: none;
+}
+
+.lost-container a:hover {
+  background: var(--muted-teal);
+  color: var(--jet-black);
+}

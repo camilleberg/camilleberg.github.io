@@ -3,6 +3,7 @@ title: Teaching
 layout: page
 ---
 
+# Teaching
 
 **Spring 2026:** Econ 201: Introduction to Macroeconomics (Professor O'Dea)
 

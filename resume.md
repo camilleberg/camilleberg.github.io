@@ -64,18 +64,10 @@ layout: resume
     <h2>Hobbies</h2>
     <div class="skill-chips">
       <span class="skill-chip">reading</span>
-    </div>
-
-    <div class="skill-chips">
-      <span class="skill-chip">sewing</span>
-    </div>
-
-    <div class="skill-chips">
+      <span class="skill-chip">&#128087; sewing</span>
       <span class="skill-chip">working out</span>
-    </div>
-
-    <div class="skill-chips">
-      <span class="skill-chip">baking</span>
+      <span class="skill-chip">&#127856; baking</span>
+      <span class="ckill-chip">&#127912; painting</span>
     </div>
 
   </aside>

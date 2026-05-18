@@ -46,26 +46,29 @@ layout: resume
 
     <h2>Skills</h2>
     <div class="skill-chips">
-      <span class="skill-chip" data-tooltip="Lorem ipsum dolor sit amet">Python</span>
-      <span class="skill-chip" data-tooltip="Consectetur adipiscing elit">R</span>
-      <span class="skill-chip" data-tooltip="Sed do eiusmod tempor">Stata</span>
-      <span class="skill-chip" data-tooltip="Ut labore et dolore magna">Matlab</span>
-      <span class="skill-chip" data-tooltip="Quis nostrud exercitation">ArcGIS Pro</span>
-      <span class="skill-chip" data-tooltip="Ullamco laboris nisi">Excel VBA</span>
-      <span class="skill-chip" data-tooltip="Duis aute irure dolor">SQL</span>
-      <span class="skill-chip" data-tooltip="Excepteur sint occaecat">Git</span>
-      <span class="skill-chip" data-tooltip="Cupidatat non proident">Google Analytics</span>
-      <span class="skill-chip" data-tooltip="Sunt in culpa qui officia">HTML</span>
-      <span class="skill-chip" data-tooltip="Deserunt mollit anim id est">Photoshop</span>
-      <span class="skill-chip" data-tooltip="Nemo enim ipsam voluptatem">LaTeX</span>
-      <span class="skill-chip" data-tooltip="Quia voluptas sit aspernatur">Jekyll</span>
-      <span class="skill-chip" data-tooltip="Neque porro quisquam est">Docker</span>
-      <span class="skill-chip" data-tooltip="Qui dolorem ipsum quia">C++</span>
+      <span class="skill-chip" data-tooltip="4 years (data wrangling, computational macro parallelization, tuning kernel estimators)">Python</span>
+      <span class="skill-chip" data-tooltip="6 years (data analysis, regression testing, mapping, and data visualization)">R</span>
+      <span class="skill-chip" data-tooltip="3 years (data cleaning, regressions)">Stata</span>
+      <span class="skill-chip" data-tooltip="2 years (Dynare, solving value function iteration problems)">Matlab</span>
+      <span class="skill-chip" data-tooltip="3 years (Mappingm spatial anysis, proximity)">ArcGIS Pro</span>
+      <span class="skill-chip" data-tooltip="2 years (dynamic updating and modeling)">Excel VBA</span>
+      <span class="skill-chip" data-tooltip="1 year (Data analysis --- mostly done through R)">SQL</span>
+      <span class="skill-chip" data-tooltip="6 years (project mamagement)">Git</span>
+      <span class="skill-chip" data-tooltip="1 year (trafic tracker, A/B testing)">Google Analytics</span>
+      <span class="skill-chip" data-tooltip="4 years (blog post formatting)">HTML</span>
+      <span class="skill-chip" data-tooltip="2 years (small graphics)">Photoshop</span>
+      <span class="skill-chip" data-tooltip="5 years (Report formatting, presentations)">LaTeX</span>
+      <span class="skill-chip" data-tooltip="1 month (this website!)">Jekyll</span>
+      <span class="skill-chip" data-tooltip="2 month (this website!)">Docker</span>
+      <span class="skill-chip" data-tooltip="1 year (very limited but can pick up again)">C++</span>
     </div>
 
     <h2>Languages</h2>
     <div class="skill-chips">
-      <span class="skill-chip" data-tooltip="Ut perspiciatis unde omnis">English (native)</span>
+      <span class="skill-chip" data-tooltip="Spoke English at home!">English (native)</span>
+      <span class="skill-chip" data-tooltip="Studied for 6 years and still occasionaly read the news and some recipes">French (proficient)</span>
+      <span class="skill-chip" data-tooltip="Studied abroad for immersive language experience in Taiwan">Standard Chinese (student)</span>
+      <span class="skill-chip" data-tooltip="Took an introductory class, keep up with duolingo">Hindi (student)</span>
     </div>
 
     <h2>Hobbies</h2>

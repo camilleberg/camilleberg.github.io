@@ -65,10 +65,22 @@ layout: resume
 
     <h2>Languages</h2>
     <div class="skill-chips">
-      <span class="skill-chip">English (native)</span>
+      <span class="skill-chip">English (native)</span> 
+        <div class="skill-popup">
+          Parents speak English at home!
+        </div>
       <span class="skill-chip">French (proficient)</span>
+        <div class="skill-popup">
+          Took 6 years of French and occasionally still read the news in French and some recipes but speaking skills have probably fallen off
+        </div>
       <span class="skill-chip">Standard Chinese (student)</span>
+        <div class="skill-popup">
+            Took a couple semesters worth of classes and studied abroad (for language) in Taiwan
+          </div>
       <span class="skill-chip">Hindi (student)</span>
+        <div class="skill-popup">
+           Took one class but keep it up with duolingo
+          </div>
     </div>
 
     <h2>Hobbies</h2>

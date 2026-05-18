@@ -5,10 +5,14 @@ layout: compress
 <html lang="en">
 <head>
 
+    li {
+        line-height: 1.1; 
+    }
+
     {% if site.analytics-google %}
         {% include analytics-google.html %}
     {% endif %}
-
+    
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.title }}">

@@ -87,7 +87,7 @@ layout: resume
 
     <h2>Research Interests</h2>
     <div class="resume-entry">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Applied econometrics, labour economics, causal inference.</p>
+      <p>Casual Inference in developmental economics. Specifically in </p>
     </div>
 
     <h2>Working Papers</h2>

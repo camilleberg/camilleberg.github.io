@@ -37,13 +37,17 @@ layout: compress
 
     /* ── Resume-specific overrides ───────────────────────────── */
 
+    /* rem units are relative to the ROOT html element, not the parent.
+       Setting font-size here is the only way to scale all rem values. */
+    html {
+        font-size: 130%;
+    }
+
     /* Break out of the 560px wrapper — full page width */
-    /* font-size: 130% scales every rem-based value on the page by 1.3x */
     .wrapper-resume {
         width: 92%;
         max-width: 1100px;
         margin: 0 auto;
-        font-size: 400%;
     }
 
     /* Page top padding to clear the fixed header */

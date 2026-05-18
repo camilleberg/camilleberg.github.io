@@ -1,0 +1,191 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=author content="{{ site.title }}">
+
+    {% seo %}
+
+    {% include favicon.html %}
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+    {% if site.dark-theme == "auto" %}
+        {% capture scss_sheet %}
+            {% include style.scss %}
+            @media (prefers-color-scheme: dark) {
+                {% include style-dark.scss %}
+            }
+        {% endcapture %}
+    {% elsif site.dark-theme %}
+        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
+    {% else %}
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% endif %}
+
+    {{ scss_sheet | scssify }}
+
+    /* ── Resume-specific overrides ───────────────────────────── */
+
+    /* Break out of the 560px wrapper — full page width */
+    .wrapper-resume {
+        width: 92%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    /* Page top padding to clear the fixed header */
+    .page.résumé {
+        margin-top: 100px;
+        padding-bottom: 4rem;
+    }
+
+    /* Page title */
+    .page.résumé > h1 {
+        text-align: left;
+        margin-bottom: 0.25rem;
+        font-size: 2rem;
+    }
+
+    /* Thin rule under the name */
+    .resume-divider {
+        border: none;
+        border-top: 2px solid #7aa1d0;
+        margin: 0.5rem 0 2rem;
+    }
+
+    /* Two-column grid — left narrow (contact/skills), right wide (experience) */
+    .resume-grid {
+        display: grid;
+        grid-template-columns: 260px 1fr;
+        gap: 3rem;
+        align-items: start;
+    }
+
+    /* Stack to single column on small screens */
+    @media (max-width: 700px) {
+        .resume-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+    }
+
+    /* Section headers inside resume */
+    .resume-section h2 {
+        font-size: 0.75rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #7aa1d0;
+        border-bottom: 1px solid #deebd8;
+        padding-bottom: 4px;
+        margin: 1.75rem 0 0.75rem;
+    }
+
+    .resume-section h2:first-child {
+        margin-top: 0;
+    }
+
+    /* Entry blocks (job, degree, etc.) */
+    .resume-entry {
+        margin-bottom: 1.25rem;
+    }
+
+    .resume-entry-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+
+    .resume-entry-title {
+        font-weight: 600;
+        color: #1f363d;
+        font-size: 0.95rem;
+    }
+
+    .resume-entry-date {
+        font-size: 0.78rem;
+        color: #afa5cf;
+        white-space: nowrap;
+    }
+
+    .resume-entry-subtitle {
+        font-size: 0.85rem;
+        color: #3a5a62;
+        font-style: italic;
+        margin: 2px 0 6px;
+    }
+
+    .resume-entry ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        font-size: 0.88rem;
+        color: #3a5a62;
+        line-height: 1.65;
+    }
+
+    .resume-entry p {
+        font-size: 0.88rem;
+        color: #3a5a62;
+        line-height: 1.65;
+        margin: 4px 0 0;
+    }
+
+    /* Skill chips in sidebar */
+    .skill-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 4px;
+    }
+
+    .skill-chip {
+        display: inline-block;
+        background: rgba(175, 165, 207, 0.12);
+        border: 1px solid rgba(175, 165, 207, 0.35);
+        color: #2d4f59;
+        border-radius: 4px;
+        padding: 2px 9px;
+        font-size: 0.78rem;
+    }
+
+    /* Contact list in sidebar */
+    .contact-list {
+        list-style: none;
+        padding: 0;
+        margin: 4px 0 0;
+        font-size: 0.85rem;
+        line-height: 2;
+    }
+
+    .contact-list a {
+        color: #7aa1d0;
+        text-decoration: none;
+    }
+
+    .contact-list a:hover {
+        color: #1f363d;
+    }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper-resume">
+        <div class="page résumé">
+            {% include nav.html %}
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>

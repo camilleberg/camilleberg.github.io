@@ -46,41 +46,26 @@ layout: resume
 
     <h2>Skills</h2>
     <div class="skill-chips">
-      <span class="skill-chip">Python</span>
-      <span class="skill-chip">R</span>
-      <span class="skill-chip">Stata</span>
-      <span class="skill-chip">Matlab</span>
-      <span class="skill-chip">ArcGIS Pro</span>
-      <span class="skill-chip">Excel VBA</span>
-      <span class="skill-chip">SQL</span>
-      <span class="skill-chip">Git</span>
-      <span class="skill-chip">Google Analytics</span>
-      <span class="skill-chip">HTML</span>
-      <span class="skill-chip">Photoshop</span>
-      <span class="skill-chip">LaTeX</span>
-      <span class="skill-chip">Jekyll</span>
-      <span class="skill-chip">Docker</span>
-      <span class="skill-chip">C++</span>
+      <span class="skill-chip" data-tooltip="Lorem ipsum dolor sit amet">Python</span>
+      <span class="skill-chip" data-tooltip="Consectetur adipiscing elit">R</span>
+      <span class="skill-chip" data-tooltip="Sed do eiusmod tempor">Stata</span>
+      <span class="skill-chip" data-tooltip="Ut labore et dolore magna">Matlab</span>
+      <span class="skill-chip" data-tooltip="Quis nostrud exercitation">ArcGIS Pro</span>
+      <span class="skill-chip" data-tooltip="Ullamco laboris nisi">Excel VBA</span>
+      <span class="skill-chip" data-tooltip="Duis aute irure dolor">SQL</span>
+      <span class="skill-chip" data-tooltip="Excepteur sint occaecat">Git</span>
+      <span class="skill-chip" data-tooltip="Cupidatat non proident">Google Analytics</span>
+      <span class="skill-chip" data-tooltip="Sunt in culpa qui officia">HTML</span>
+      <span class="skill-chip" data-tooltip="Deserunt mollit anim id est">Photoshop</span>
+      <span class="skill-chip" data-tooltip="Nemo enim ipsam voluptatem">LaTeX</span>
+      <span class="skill-chip" data-tooltip="Quia voluptas sit aspernatur">Jekyll</span>
+      <span class="skill-chip" data-tooltip="Neque porro quisquam est">Docker</span>
+      <span class="skill-chip" data-tooltip="Qui dolorem ipsum quia">C++</span>
     </div>
 
     <h2>Languages</h2>
     <div class="skill-chips">
-      <span class="skill-chip">English (native)</span> 
-        <div class="skill-popup">
-          Parents speak English at home!
-        </div>
-      <span class="skill-chip">French (proficient)</span>
-        <div class="skill-popup">
-          Took 6 years of French and occasionally still read the news in French and some recipes but speaking skills have probably fallen off
-        </div>
-      <span class="skill-chip">Standard Chinese (student)</span>
-        <div class="skill-popup">
-            Took a couple semesters worth of classes and studied abroad (for language) in Taiwan
-          </div>
-      <span class="skill-chip">Hindi (student)</span>
-        <div class="skill-popup">
-           Took one class but keep it up with duolingo
-          </div>
+      <span class="skill-chip" data-tooltip="Ut perspiciatis unde omnis">English (native)</span>
     </div>
 
     <h2>Hobbies</h2>
@@ -99,7 +84,7 @@ layout: resume
 
     <h2>Research Interests</h2>
     <div class="resume-entry">
-      <p>Casual Inference in developmental economics. Specifically in </p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Applied econometrics, labour economics, causal inference.</p>
     </div>
 
     <h2>Working Papers</h2>

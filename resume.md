@@ -23,17 +23,25 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Ph.D. Economics</span>
-        <span class="resume-entry-date">2022 – present</span>
+        <span class="resume-entry-date">2024 – present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">B.Sc. Economics</span>
-        <span class="resume-entry-date">2018 – 2022</span>
+        <span class="resume-entry-title">B.S. Mathematics (Statistics and Data Science)</span>
+        <span class="resume-entry-date">2018 – 2021</span>
       </div>
-      <div class="resume-entry-subtitle">Lorem Ipsum University</div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">B.A. Economics</span>
+        <span class="resume-entry-date">2018 – 2021</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
 
     <h2>Skills</h2>

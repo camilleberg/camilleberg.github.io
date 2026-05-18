@@ -50,6 +50,12 @@ layout: compress
         margin: 0 auto;
     }
 
+    /* Reset nav font size back to normal — the html: 130% would
+       otherwise scale it up too since nav.sass uses rem units */
+    nav, nav * {
+        font-size: revert;
+    }
+
     /* Page top padding to clear the fixed header */
     .page.résumé {
         margin-top: 100px;

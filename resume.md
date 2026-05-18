@@ -106,14 +106,6 @@ layout: resume
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
-    <div class="resume-entry">
-      <div class="resume-entry-header">
-        <span class="resume-entry-title">ECON 101 — Principles of Microeconomics</span>
-        <span class="resume-entry-date">Autumn 2024</span>
-      </div>
-      <div class="resume-entry-subtitle">Teaching Assistant · University of Washington</div>
-    </div>
-
     <h2>Experience</h2>
 
     <div class="resume-entry">

@@ -55,7 +55,7 @@ layout: resume
       <span class="skill-chip">SQL</span>
       <span class="skill-chip">Git</span>
       <span class="skill-chip">Google Analytics</span>
-      <span class="skill-chip">html</span>
+      <span class="skill-chip">HTML</span>
       <span class="skill-chip">Photoshop</span>
       <span class="skill-chip">LaTeX</span>
       <span class="skill-chip">Jekyll</span>
@@ -66,6 +66,9 @@ layout: resume
     <h2>Languages</h2>
     <div class="skill-chips">
       <span class="skill-chip">English (native)</span>
+      <span class="skill-chip">French (proficient)</span>
+      <span class="skill-chip">Standard Chinese (student)</span>
+      <span class="skill-chip">Hindi (student)</span>
     </div>
 
     <h2>Hobbies</h2>
@@ -115,22 +118,21 @@ layout: resume
       </div>
       <div class="resume-entry-subtitle">Lorem Ipsum Institute, Seattle</div>
       <ul>
-        <li>Developed a dynamic neighborhood population projection model in Python and R using Census and development data, producing city planning projections used across a 20-year horizon </li>
-        <li> Built automated data collection pipelines in Python to update an economic recovery dashboard weekly, reducing manual data entry time by over 75% </li>
-        <li> Created interactive R dashboard visualizing demographic diversity insights for city officials, directly informing community outreach and resource allocation decisions</li>
+        <li>Developed a dynamic neighborhood population projection model in Python and R using Census and development data, producing city planning projections used across a 20-year horizon</li>
+        <li>Built automated data collection pipelines in Python to update an economic recovery dashboard weekly, reducing manual data entry time by over 75%</li>
+        <li>Created interactive R dashboard visualizing demographic diversity insights for city officials, directly informing community outreach and resource allocation decisions</li>
+      </ul>
+    </div>
 
-      <div class="resume-entry">
+    <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">Research. Intern</span>
+        <span class="resume-entry-title">Research Intern</span>
         <span class="resume-entry-date">January 2022 – March 2022</span>
       </div>
       <div class="resume-entry-subtitle">Lorem Ipsum Institute, Seattle</div>
       <ul>
-        <li>•	Developed and executed a new methodology in Python to verify web API results used to monitor social impact across global supply chains <li>
+        <li>Developed and executed a new methodology in Python to verify web API results used to monitor social impact across global supply chains</li>
         <li>Delivered data dashboards and reports mapping supply chain risks to 20+ multinational brands</li>
-        
-        
-        
       </ul>
     </div>
 

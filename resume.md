@@ -58,8 +58,20 @@ layout: resume
 
     <h2>Languages</h2>
     <div class="skill-chips">
-      <span class="skill-chip">English (fluent)</span>
-      <span class="skill-chip">French (native)</span>
+      <span class="skill-chip">English (native)</span>
+    </div>
+
+    <h2>Hobbies</h2>
+    <div class="skill-chips">
+      <span class="skill-chip">reading</span>
+    </div>
+
+    <div class="skill-chips">
+      <span class="skill-chip">sewing</span>
+    </div>
+
+      <div class="skill-chips">
+      <span class="skill-chip">hikes</span>
     </div>
 
   </aside>

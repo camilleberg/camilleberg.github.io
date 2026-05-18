@@ -22,6 +22,14 @@ layout: resume
 
     <div class="resume-entry">
       <div class="resume-entry-header">
+        <span class="resume-entry-title">M.S. Economics</span>
+        <span class="resume-entry-date">2024 – 2026</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
         <span class="resume-entry-title">B.S. Mathematics (Statistics and Data Science)</span>
         <span class="resume-entry-date">2018 – 2021</span>
       </div>
@@ -62,9 +70,9 @@ layout: resume
 
     <h2>Hobbies</h2>
     <div class="skill-chips">
-      <span class="skill-chip">reading</span>
+      <span class="skill-chip">&#128214; reading</span>
       <span class="skill-chip">&#128087; sewing</span>
-      <span class="skill-chip">working out</span>
+      <span class="skill-chip">&#127939;&#127995;&zwj;&#9792; working out</span>
       <span class="skill-chip">&#127856; baking</span>
       <span class="skill-chip">&#127912; painting</span>
     </div>

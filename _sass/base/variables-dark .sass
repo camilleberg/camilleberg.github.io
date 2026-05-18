@@ -1,0 +1,68 @@
+// ============================================================
+// _sass/base/variables-dark.sass  —  DARK THEME
+// Replaces the original file in your forked repo.
+//
+// This file is imported by _includes/style-dark.scss instead
+// of variables.sass. The dark theme is activated when
+// dark-theme: true (or dark-theme: auto with a dark OS preference)
+// is set in _config.yml.
+//
+// Same variable names as variables.sass — same semantic roles —
+// but values adjusted for dark backgrounds so contrast stays high.
+// ============================================================
+
+// --- FONTS (unchanged) ---
+$fontSans      : "Helvetica Neue", Helvetica, Arial, sans-serif
+$fontMonospace : "Consolas", Liberation Mono, Menlo, Courier, monospace
+$thin-font     : 400
+
+// --- BREAKPOINTS (unchanged) ---
+$mobile  : "only screen and (max-width: 400px)"
+$tablet  : "only screen and (min-width: 400px) and (max-width: 1050px)"
+$above   : "only screen and (min-width: 780px)"
+$below   : "only screen and (max-width: 780px)"
+
+// ============================================================
+// PALETTE VARIABLES (dark theme)
+// ============================================================
+
+// $alpha — body text on dark background
+// Must be light enough to read on $omega (jet-black).
+// Ours: tea-green — the palest palette colour; legible on dark bg
+$alpha: #cfe0c3
+
+// $beta — headings on dark background
+// Needs more contrast than $alpha.
+// Ours: near-white with a green cast — brighter than tea-green
+$beta: #eaf2e6
+
+// $gama — muted text on dark background (dates, captions, footer)
+// Should be dimmer than $alpha without disappearing.
+// Ours: wisteria — soft purple-grey sits between text and background
+$gama: #afa5cf
+
+// $delta — links and hover accents on dark background
+// Must stand out from $alpha (tea-green body text).
+// Ours: wisteria-blue — cooler and brighter than the body text colour
+$delta: #7aa1d0
+
+// $epsilon — borders, dividers, tag backgrounds on dark background
+// Must be visible against $omega without being harsh.
+// Ours: jet-light (slightly lighter than the bg) — a dark teal border
+$epsilon: #2d4f59
+
+// $omega — page background in dark mode
+// Original dark theme: #000 (pure black)
+// Ours: jet-black — the richest palette colour; not pure black,
+//       has teal warmth that ties into the rest of the palette
+$omega: #1f363d
+
+// $zeta — SVG icon fill and <strong> text on dark background
+// Needs to be bright on dark bg.
+// Ours: tea-green — matches $alpha for icons, readable on jet-black
+$zeta: #cfe0c3
+
+// $kappa — highlight gradient (.evidence, .star titles)
+// Must be visible on dark $omega without being too bright.
+// Ours: muted-teal at 20% — the sage green glows gently on dark bg
+$kappa: rgba(158, 193, 163, 0.20)

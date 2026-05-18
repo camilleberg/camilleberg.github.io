@@ -1,0 +1,132 @@
+# ================================================================
+# _config.yml — Camille Bergeron · camilleberg.github.io
+# ================================================================
+# NOTE: the custom-css key has been REMOVED from this version.
+# Indigo does not read that key — it caused the CSS to never load.
+# Styles are now applied via _sass/_variables.scss (palette values)
+# and _sass/_custom.scss (component overrides), both of which are
+# imported automatically by assets/css/main.scss.
+# ================================================================
+
+# ----------------------------------------------------------------
+# SITE IDENTITY
+# ----------------------------------------------------------------
+title: Camille Bergeron
+bio: Current Ph.D Student in Economics
+
+description: A blog about technology and stuff related
+
+# ----------------------------------------------------------------
+# PROFILE IMAGE
+# external-image: false → path is relative to repo root
+# ----------------------------------------------------------------
+external-image: false
+picture: assets/images/profile.jpg
+
+# ----------------------------------------------------------------
+# THEME
+# false = light Indigo base. Our _sass overrides sit on top of it.
+# ----------------------------------------------------------------
+dark-theme: false
+
+# ----------------------------------------------------------------
+# URL & PERMALINKS
+# ----------------------------------------------------------------
+url: https://camilleberg.github.io
+permalink: /:title/
+
+# ----------------------------------------------------------------
+# ANALYTICS — fill in token when ready
+# ----------------------------------------------------------------
+# analytics-google: 'UA-MYANALYTICS'
+
+# ----------------------------------------------------------------
+# COMMENTS
+# ----------------------------------------------------------------
+disqus:
+  shortname: github
+  categories: [blog, project]
+
+# ----------------------------------------------------------------
+# SOCIAL LINKS
+# ----------------------------------------------------------------
+linkedin: camille-bergeron
+github: camilleberg
+email: cghb@uw.edu
+
+# ----------------------------------------------------------------
+# AUTHORS
+# ----------------------------------------------------------------
+authors:
+  camillebergeron:
+    name: Camille Bergeron
+    bio: I try
+    external-image: false
+    picture: assets/images/profile.jpg
+
+# ----------------------------------------------------------------
+# LAYOUT WIDTH
+# ----------------------------------------------------------------
+width: normal
+
+# ----------------------------------------------------------------
+# FEATURE FLAGS
+# ----------------------------------------------------------------
+projects: true
+about: true
+resume: true
+# blog: true
+
+# ----------------------------------------------------------------
+# POST OPTIONS
+# ----------------------------------------------------------------
+read-time: true
+show-tags: true
+related: true
+post-advance-links: [blog]
+show-author: true
+
+# ----------------------------------------------------------------
+# ANIMATIONS
+# ----------------------------------------------------------------
+animation: true
+
+# ----------------------------------------------------------------
+# DEFAULTS
+# ----------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      layout: "post"
+    values:
+      hidden: false
+
+# ----------------------------------------------------------------
+# PLUGINS
+# ----------------------------------------------------------------
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# ----------------------------------------------------------------
+# HTML COMPRESSION
+# ----------------------------------------------------------------
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+# ----------------------------------------------------------------
+# EXCLUDED FILES
+# ----------------------------------------------------------------
+exclude:
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "vendor",
+  ]

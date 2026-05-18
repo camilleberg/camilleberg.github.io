@@ -1,18 +1,83 @@
-$fontSans: "Helvetica Neue", Helvetica, Arial, sans-serif
-$fontMonospace: "Consolas", Liberation Mono, Menlo, Courier, monospace
+// ============================================================
+// _sass/base/variables.sass  —  LIGHT THEME
+// Replaces the original file in your forked repo.
+//
+// PALETTE:
+//   $wisteria-blue : #7aa1d0  — cool slate blue
+//   $wisteria      : #afa5cf  — soft lavender-grey
+//   $muted-teal    : #9ec1a3  — sage green
+//   $tea-green     : #cfe0c3  — pale mint
+//   $jet-black     : #1f363d  — deep teal-black
+//
+// HOW INDIGO'S VARIABLES WORK:
+//   Indigo doesn't use descriptive variable names like $link-color.
+//   It uses abstract Greek letters. Every component file imports
+//   variables.sass first, so changing values here rewires the entire
+//   theme. The semantic role of each letter is fixed by how the
+//   component .sass files use it — verified by grepping the repo.
+// ============================================================
 
-$alpha: #666
-$beta: #222
-$gama: #575757
-$delta: #4b0082
-$epsilon: #ededed
-$omega: #fff
-$zeta: #000
-$kappa: #27f36a26
+// --- FONTS (unchanged — not palette-related) ---
+$fontSans      : "Helvetica Neue", Helvetica, Arial, sans-serif
+$fontMonospace : "Consolas", Liberation Mono, Menlo, Courier, monospace
+$thin-font     : 300
 
-$thin-font: 300
+// --- BREAKPOINTS (unchanged) ---
+$mobile  : "only screen and (max-width: 400px)"
+$tablet  : "only screen and (min-width: 400px) and (max-width: 1050px)"
+$above   : "only screen and (min-width: 780px)"
+$below   : "only screen and (max-width: 780px)"
 
-$mobile: "only screen and (max-width: 400px)"
-$tablet: "only screen and (min-width: 400px) and (max-width: 1050px)"
-$above: "only screen and (min-width: 780px)"
-$below: "only screen and (max-width: 780px)"
+// ============================================================
+// PALETTE VARIABLES (light theme)
+// ============================================================
+
+// $alpha — body text, secondary text, list item text, nav hover
+// Original: #666 (mid-grey)
+// Ours: dark teal-grey — readable on cream, warmer than pure grey
+$alpha: #3a5a62
+
+// $beta — headings (h1–h4), footer links, .evidence text
+// Original: #222 (near-black)
+// Ours: jet-black — the darkest palette colour, strong contrast
+$beta: #1f363d
+
+// $gama — muted/caption text: dates, descriptions, footer copy,
+//         icon fills, figure captions, the "• • •" breaker
+// Original: #575757 (dark grey)
+// Ours: wisteria — soft purple-grey, distinct from body text
+//       but clearly subordinate; matches dates to the tag palette
+$gama: #8a82b8
+
+// $delta — ALL links (a), hover accent on titles and icons,
+//          social icon hover, tag/post-title hover colour
+// Original: #4b0082 (deep purple)
+// Ours: wisteria-blue — cooler, less saturated than original purple;
+//       readable on cream and distinct from both text and backgrounds
+$delta: #7aa1d0
+
+// $epsilon — borders, dividers, tag/badge backgrounds, code background,
+//            the decorative diamond ::before on list tops, pre border
+// Original: #ededed (light grey)
+// Ours: tea-green at low opacity — a mint tint replaces neutral grey;
+//       subtle enough not to compete with content
+$epsilon: #deebd8
+
+// $omega — page background, pre background, footer diamond background,
+//          share button fill, code block background
+// Original: #fff (white)
+// Ours: cream with a green cast — warmer than pure white, picks up
+//       the tea-green from the palette without being colourful
+$omega: #f4f6f2
+
+// $zeta — icon fill (SVG icons), <strong> text
+// Original: #000 (black)
+// Ours: jet-black — same as $beta so icons feel part of the palette;
+//       strong text stays anchored to the darkest colour
+$zeta: #1f363d
+
+// $kappa — gradient used for .evidence highlights and .star post titles
+// Original: #27f36a26 (transparent green wash — 15% opacity)
+// Ours: muted-teal at ~18% opacity — the sage green highlight replaces
+//       the original neon green; same transparency trick, palette colour
+$kappa: rgba(158, 193, 163, 0.18)

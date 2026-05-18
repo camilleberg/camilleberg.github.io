@@ -1,0 +1,321 @@
+// ================================================================
+// _sass/_custom.scss
+// DROP THIS FILE into your repo at: _sass/_custom.scss
+//
+// Then open assets/css/main.scss and add this line at the very end:
+//   @import "custom";
+//
+// This file handles styles that Indigo doesn't expose as variables,
+// so we need direct CSS overrides. It loads last, so it wins over
+// everything in the theme without needing !important.
+// ================================================================
+
+
+// ----------------------------------------------------------------
+// 1. BODY & PAGE BACKGROUND
+// $background-color in _variables.scss sets this, but some Indigo
+// builds also hardcode #fff in _base.scss. This guarantees the
+// cream background wins.
+// ----------------------------------------------------------------
+body {
+  background-color: $cream;
+  color: $body-text;
+}
+
+
+// ----------------------------------------------------------------
+// 2. HEADER / NAV BAR
+// Indigo's header has a bottom border controlled separately from
+// $header-background. We add a 2px wisteria-blue accent line and
+// recolour the nav links' hover underline.
+// ----------------------------------------------------------------
+header.main-header,
+.main-header {
+  background-color: $jet-black;
+  border-bottom: 2px solid $wisteria-blue;
+}
+
+// Nav link resting state — Indigo uses .links or nav a depending on version
+.main-header nav a,
+header nav a {
+  color: rgba($tea-green, 0.70);    // slightly dimmed so active stands out
+
+  &:hover,
+  &.active {
+    color: $tea-green;
+    border-bottom: 2px solid $muted-teal;
+  }
+}
+
+// Site title ("Camille Bergeron") in the header
+.main-header .logo a,
+header .logo a,
+.header-title a {
+  color: $tea-green;
+}
+
+
+// ----------------------------------------------------------------
+// 3. HERO / PROFILE BLOCK (home page)
+// Indigo renders a centred profile section with class .about or
+// .profile-container. We give it the jet-black treatment.
+// ----------------------------------------------------------------
+.about,
+.profile-container,
+.wrapper-masthead {
+  background-color: $jet-black;
+}
+
+// Large name on home page
+.about h1,
+.about .name,
+.profile-name {
+  color: $tea-green;
+}
+
+// Bio/tagline under the name
+.about p,
+.about .bio,
+.profile-bio {
+  color: $wisteria;
+  font-style: italic;
+}
+
+// Social icons in the profile block
+.about .social a,
+.social-links a,
+.icons a {
+  color: $muted-teal;
+
+  &:hover { color: $tea-green; }
+}
+
+// Circular profile photo ring
+img.selfie,
+.profile-image img,
+img.profile {
+  border: 3px solid $wisteria-blue;
+  border-radius: 50%;
+}
+
+
+// ----------------------------------------------------------------
+// 4. POST LIST ITEMS (blog.html, projects.html, tags.html)
+// Each post is a .item div containing an <aside> time and <h3>.
+// ----------------------------------------------------------------
+.list .item {
+  border-bottom: 1px solid $border-color;
+
+  h3.title {
+    color: $body-text;
+  }
+
+  &:hover h3.title {
+    color: $wisteria-blue;
+  }
+
+  aside time {
+    color: $wisteria;              // soft purple for dates
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 5. TAGS
+// The tag pills on post pages and tags.html listing.
+// ----------------------------------------------------------------
+.tag-list h2.title,
+.tags a,
+.post-info .tag,
+span.tag {
+  display: inline-block;
+  background-color: $tag-background;
+  border: 1px solid $tag-border;
+  color: $jet-light;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.78rem;
+  margin: 2px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: rgba($muted-teal, 0.25);
+    color: $jet-black;
+  }
+}
+
+// Section headers on tags.html  (#tag-name)
+.tag-list h2.title {
+  color: $muted-teal;
+  border-bottom: 1px solid rgba($muted-teal, 0.25);
+  border-radius: 0;
+  background: none;
+  padding: 0 0 4px 0;
+  font-size: 1.2rem;
+}
+
+
+// ----------------------------------------------------------------
+// 6. POST CONTENT — headings, blockquotes, code
+// ----------------------------------------------------------------
+.post-content,
+article.post {
+
+  h1, h2, h3, h4, h5 {
+    color: $jet-black;
+  }
+
+  // Blockquote: left accent bar in wisteria-blue, faint blue wash
+  blockquote {
+    border-left: 3px solid $wisteria-blue;
+    background-color: rgba($wisteria-blue, 0.06);
+    color: $muted-text;
+    padding: 0.75rem 1rem;
+    border-radius: 0 4px 4px 0;
+    font-style: italic;
+  }
+
+  // Inline code: wisteria wash
+  code {
+    background-color: rgba($wisteria, 0.15);
+    color: $jet-light;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.88em;
+  }
+
+  // Fenced code blocks: dark terminal look
+  pre {
+    background-color: $jet-black;
+    border-left: 3px solid $muted-teal;
+    border-radius: 0 4px 4px 0;
+
+    code {
+      background: none;
+      color: $tea-green;
+      padding: 0;
+    }
+  }
+
+  // Horizontal rule
+  hr {
+    border-color: $border-color;
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 7. SKILL LIST CHIPS (about.md)
+// ul.skill-list li → inline chips styled with wisteria wash
+// ----------------------------------------------------------------
+ul.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0 1.25rem;
+
+  li {
+    display: inline-block;
+    background-color: rgba($wisteria, 0.12);
+    border: 1px solid rgba($wisteria, 0.35);
+    color: $jet-light;
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin: 3px 2px;
+    font-size: 0.82rem;
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 8. BUTTONS & READ-MORE
+// ----------------------------------------------------------------
+a.button,
+.read-more a,
+.post-footer a {
+  border: 1px solid $wisteria-blue;
+  color: $wisteria-blue;
+  border-radius: 20px;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-size: 0.82rem;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: $wisteria-blue;
+    color: $cream;
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 9. FOOTER
+// ----------------------------------------------------------------
+footer {
+  background-color: $jet-black;
+  border-top: 1px solid $border-color;
+  color: rgba($tea-green, 0.60);
+
+  a {
+    color: $wisteria-blue;
+    &:hover { color: $tea-green; }
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 10. PAGINATION
+// ----------------------------------------------------------------
+.pagination {
+  a {
+    color: $wisteria-blue;
+    border: 1px solid rgba($wisteria-blue, 0.35);
+    border-radius: 4px;
+    padding: 4px 12px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $wisteria-blue;
+      color: $cream;
+    }
+  }
+
+  .current {
+    background-color: $jet-black;
+    color: $tea-green;
+    border-radius: 4px;
+    padding: 4px 12px;
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 11. 404 PAGE
+// ----------------------------------------------------------------
+.lost-container {
+  h1 { color: $wisteria; }   // soft error, not alarming red
+
+  a {
+    border: 1px solid $muted-teal;
+    color: $muted-teal;
+    border-radius: 20px;
+    padding: 6px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: $muted-teal;
+      color: $jet-black;
+    }
+  }
+}
+
+
+// ----------------------------------------------------------------
+// 12. DISQUS / COMMENTS DIVIDER
+// ----------------------------------------------------------------
+#disqus_thread {
+  border-top: 1px solid $border-color;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}

@@ -70,8 +70,12 @@ layout: resume
       <span class="skill-chip">sewing</span>
     </div>
 
-      <div class="skill-chips">
-      <span class="skill-chip">hikes</span>
+    <div class="skill-chips">
+      <span class="skill-chip">working out</span>
+    </div>
+
+    <div class="skill-chips">
+      <span class="skill-chip">baking</span>
     </div>
 
   </aside>

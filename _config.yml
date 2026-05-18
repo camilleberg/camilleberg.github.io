@@ -92,7 +92,8 @@ width: normal
 # ----------------------------------------------------------------
 projects: true
 about: true
-resume: true
+resume-url: true 
+# because apparently its url
 # blog: true   ← uncomment when you have posts to show
 
 # ----------------------------------------------------------------

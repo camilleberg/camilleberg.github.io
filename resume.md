@@ -10,14 +10,6 @@ layout: resume
   <!-- ── LEFT SIDEBAR ─────────────────────────────────────── -->
   <aside class="resume-section">
 
-    <h2>Contact</h2>
-    <ul class="contact-list">
-      <li>📍 Seattle, WA</li>
-      <li><a href="mailto:cghb@uw.edu">cghb@uw.edu</a></li>
-      <li><a href="https://github.com/camilleberg">github.com/camilleberg</a></li>
-      <li><a href="https://linkedin.com/in/camille-bergeron">linkedin</a></li>
-    </ul>
-
     <h2>Education</h2>
 
     <div class="resume-entry">

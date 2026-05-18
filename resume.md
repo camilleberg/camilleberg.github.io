@@ -49,11 +49,18 @@ layout: resume
       <span class="skill-chip">Python</span>
       <span class="skill-chip">R</span>
       <span class="skill-chip">Stata</span>
+      <span class="skill-chip">Matlab</span>
+      <span class="skill-chip">ArcGIS Pro</span>
+      <span class="skill-chip">Excel VBA</span>
       <span class="skill-chip">SQL</span>
       <span class="skill-chip">Git</span>
+      <span class="skill-chip">Google Analytics</span>
+      <span class="skill-chip">html</span>
+      <span class="skill-chip">Photoshop</span>
       <span class="skill-chip">LaTeX</span>
       <span class="skill-chip">Jekyll</span>
       <span class="skill-chip">Docker</span>
+      <span class="skill-chip">C++</span>
     </div>
 
     <h2>Languages</h2>
@@ -67,7 +74,7 @@ layout: resume
       <span class="skill-chip">&#128087; sewing</span>
       <span class="skill-chip">working out</span>
       <span class="skill-chip">&#127856; baking</span>
-      <span class="ckill-chip">&#127912; painting</span>
+      <span class="skill-chip">&#127912; painting</span>
     </div>
 
   </aside>

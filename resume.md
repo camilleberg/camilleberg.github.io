@@ -138,11 +138,6 @@ layout: resume
 
     <h2>Awards & Grants</h2>
 
-Massachusetts High Demand Scholarship - Merit-based award provided to outstanding STEM students
-John and Abigail Adams Scholarship - Awarded to students based on top performance on the Massachusetts Comprehensive Assessment System (MCAS), a statewide standardized exam
-President's Award for Educational Excellence - Awarded to the highest performing students in college-level coursework
-
-
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Fellowship funding for Ph.D.</span>

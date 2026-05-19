@@ -98,7 +98,7 @@ layout: resume
         <span class="resume-entry-title">Research Associate (promoted from Research Assistant and Data Analyst)</span>
         <span class="resume-entry-date">March 2022 – May 2024</span>
       </div>
-      <div class="resume-entry-subtitle">Boston Planning and Development Agency, Boston</div>
+      <div class="resume-entry-subtitle">Boston Planning and Development Agency, Boston MA</div>
       <ul>
         <li>Developed a dynamic neighborhood population projection model in Python and R using Census and development data, producing city planning projections used across a 20-year horizon</li>
         <li>Built automated data collection pipelines in Python to update an economic recovery dashboard weekly, reducing manual data entry time by over 75%</li>
@@ -111,10 +111,22 @@ layout: resume
         <span class="resume-entry-title">Research Intern</span>
         <span class="resume-entry-date">January 2022 – March 2022</span>
       </div>
-      <div class="resume-entry-subtitle">Verité, Amherst</div>
+      <div class="resume-entry-subtitle">Verité, Amherst MA</div>
       <ul>
         <li>Developed and executed a new methodology in Python to verify web API results used to monitor social impact across global supply chains</li>
         <li>Delivered data dashboards and reports mapping supply chain risks to 20+ multinational brands</li>
+      </ul>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Data Science Intern</span>
+        <span class="resume-entry-date">Sugust 2020 – December 2020</span>
+      </div>
+      <div class="resume-entry-subtitle">Verité, Amherst MA</div>
+      <ul>
+        <li>Developed an end-to-end data pipeline and interactive dashboard for a local nonprofit, Hampshire Hope, incorporating Google Maps and transportation data </li>
+        <li> Applied data wrangling, exploratory analysis, and visualization techniques to identify service-access gaps and optimize resource allocation.</li>
       </ul>
     </div>
 
@@ -149,7 +161,7 @@ layout: resume
         <span class="resume-entry-title">University of Massachuetts Amherst Grant</span>
         <span class="resume-entry-date">2021</span>
       </div>
-      <div class="resume-entry-subtitle">University of MAssachusetts Amherst</div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
 
     <div class="resume-entry">

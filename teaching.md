@@ -32,8 +32,14 @@ layout: teaching
     <h2>Econ 301: Introduction to Macroeconomics</h2>
   </div>
   <div class="main-professor">Professor Brock</div>
+  <div class="mini-header">Course description</div>
   <div class="course-description">
     Analysis of the determinants of the aggregate level of employment, output, prices, and income of an economy. Policy issues and applications with special reference to current monetary and fiscal policy.
+  </div>
+
+  <div class="mini-header">Graduate Teaching Assistant</div>
+  <div class="course-description">
+    I made weekly Rowerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above avergae teacher evaluation scores. 
   </div>
   
   <div class="course-footer">

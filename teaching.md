@@ -1,6 +1,6 @@
 ---
 title: Teaching
-layout: page
+layout: teaching
 ---
 <hr class="teaching-divider">
 

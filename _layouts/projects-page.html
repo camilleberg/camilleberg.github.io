@@ -9,7 +9,6 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
-
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.title }}">
@@ -37,13 +36,6 @@ layout: compress
 
     {{ scss_sheet | scssify }}
 
-
-    /* rem units are relative to the ROOT html element, not the parent.
-       Setting font-size here is the only way to scale all rem values. */
-    html {
-        font-size: 115%;
-    }
-
     /* ── Fixed gradient background ───────────────────────── */
     /* position: fixed keeps it in place while content scrolls.
        z-index: -1 pushes it behind everything else on the page. */
@@ -54,7 +46,11 @@ layout: compress
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: #fcfcfc
+        background: linear-gradient(
+            135deg,
+            #cfe0c3 0%,    /* tea-green */
+            #7aa1d0 100%   /* wisteria-blue */
+        );
     }
 
     /* ── Page wrapper ────────────────────────────────────── */
@@ -94,14 +90,14 @@ layout: compress
        the gradient. backdrop-filter blurs the gradient behind
        the card, giving the frosted effect. */
     .project-card {
-        background: $wisteria-blue;
+        background: rgba(255, 255, 255, 0.45);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.60);
         border-radius: 10px;
         padding: 2rem 2.25rem;
         margin-bottom: 1.5rem;
-        transition: transform 0.2s;
+        transition: transform 0.2s, box-shadow 0.2s;
     }
 
     .project-card:hover {
@@ -111,6 +107,7 @@ layout: compress
 
     /* Project number label */
     .project-number {
+        font-family: monospace;
         font-size: 0.72rem;
         letter-spacing: 0.12em;
         text-transform: uppercase;
@@ -161,7 +158,7 @@ layout: compress
 
     .project-tag {
         display: inline-block;
-        background: rgba(175, 165, 207, 1);
+        background: rgba(31, 54, 61, 0.08);
         border: 1px solid rgba(31, 54, 61, 0.18);
         color: #1f363d;
         border-radius: 20px;
@@ -195,6 +192,13 @@ layout: compress
         content: "↓";
         font-size: 0.9rem;
     }
+
+    /* Pin nav font sizes to px so they are immune to html: 115% scaling.
+       Values match Indigo nav.sass at base 16px (1.4rem=22px, 2rem=32px) */
+    nav .link        { font-size: 22px; }
+    nav .logo        { font-size: 32px; }
+    header .name     { font-size: 64px; }
+    header .profile  { font-size: 29.6px; }
 
     /* Nav links need to stay readable on the gradient */
     nav a {

@@ -39,9 +39,11 @@ for Estimating Returns to Female Schooling</h2>
   </p>
   <div class="project-footer">
     <div class="project-tags">
-      <span class="project-tag">econometrics</span>
-      <span class="project-tag">R</span>
-      <span class="project-tag">Stata</span>
+      <span class="project-tag">collective household</span>
+      <span class="project-tag">dynamic causal effect</span>
+      <span class="project-tag">intra-household bargaining</span>
+      <span class="project-tag">local projections</span>
+      <span class="project-tag">household dynamics</span>
     </div>
     <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_Proposal_Household_Dynamics.pdf" target="_blank">
       Download PDF

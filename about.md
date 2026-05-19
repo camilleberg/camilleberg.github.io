@@ -16,11 +16,7 @@ layout: page
      custom.css can target without touching the theme's Sass. -->
 
 <p>
-  Hi! My name is Camille. I am a Ph.D student in Economics at the
-  University of Washington. My research interests sit at the
-  intersection ofeconometrics and development. I like to think about 
-  casual identification and how we can better understand the world 
-  around us with strong mathematical principles. 
+  Hi! My name is Camille. I am a Ph.D student in Economics at the University of Washington. My research interests sit at the intersection of econometrics and development. I'm interested in casual identification and how we can better understand the world around us with strong mathematical principles. 
 </p>
 
 <p>

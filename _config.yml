@@ -48,7 +48,7 @@ permalink: /:title/
 # ANALYTICS (disabled — token not set)
 # Uncomment and fill in your GA token when ready.
 # ----------------------------------------------------------------
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'G-7STEP8F2NJ'
 
 # ----------------------------------------------------------------
 # COMMENTS (Disqus)

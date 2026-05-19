@@ -65,7 +65,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">PDE</span>
       <span class="project-tag">Kernel Ridge Regression</span>
     </div>
-    <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_Proposal_Household_Dynamics.pdf" target="_blank">
+    <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_kernel_PDE.pdf" target="_blank">
       Download PDF
     </a>
   </div>

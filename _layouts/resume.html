@@ -40,7 +40,7 @@ layout: compress
     /* rem units are relative to the ROOT html element, not the parent.
        Setting font-size here is the only way to scale all rem values. */
     html {
-        font-size: 115%;
+        font-size: 130%;
     }
 
     /* Break out of the 560px wrapper — full page width */
@@ -50,11 +50,13 @@ layout: compress
         margin: 0 auto;
     }
 
-    /* Reset nav font size back to normal — the html: 130% would
-       otherwise scale it up too since nav.sass uses rem units */
-    nav, nav * {
-        font-size: revert;
-    }
+    /* Pin nav and header font sizes to px so they are immune to
+       the html: 115% scaling. Values match Indigo nav.sass exactly:
+       1.4rem, 2rem, 4rem, 1.85rem all calculated at base 16px. */
+    nav .link        { font-size: 22px; }   /* nav.sass line 14 & 27: 1.4rem */
+    nav .logo        { font-size: 32px; }   /* nav.sass line 38: 2rem */
+    header .name     { font-size: 64px; }   /* header.sass line 21: 4rem */
+    header .profile  { font-size: 29.6px; } /* header.sass line 25: 1.85rem */
 
     /* Page top padding to clear the fixed header */
     .page.résumé {

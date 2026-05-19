@@ -90,24 +90,6 @@ layout: resume
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Applied econometrics, labour economics, causal inference.</p>
     </div>
 
-    <h2>Working Papers</h2>
-
-    <div class="resume-entry">
-      <div class="resume-entry-header">
-        <span class="resume-entry-title">Lorem Ipsum and the Labour Market</span>
-        <span class="resume-entry-date">2025</span>
-      </div>
-      <div class="resume-entry-subtitle">with Co-Author Name</div>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-    </div>
-
-    <div class="resume-entry">
-      <div class="resume-entry-header">
-        <span class="resume-entry-title">Dolor Sit Amet: A Causal Study</span>
-        <span class="resume-entry-date">2024</span>
-      </div>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
 
     <h2>Experience</h2>
 

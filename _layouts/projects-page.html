@@ -1,0 +1,221 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=author content="{{ site.title }}">
+
+    {% seo %}
+
+    {% include favicon.html %}
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+
+    {% if site.dark-theme == "auto" %}
+        {% capture scss_sheet %}
+            {% include style.scss %}
+            @media (prefers-color-scheme: dark) {
+                {% include style-dark.scss %}
+            }
+        {% endcapture %}
+    {% elsif site.dark-theme %}
+        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
+    {% else %}
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% endif %}
+
+    {{ scss_sheet | scssify }}
+
+    /* ── Fixed gradient background ───────────────────────── */
+    /* position: fixed keeps it in place while content scrolls.
+       z-index: -1 pushes it behind everything else on the page. */
+    .fixed-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(
+            135deg,
+            #cfe0c3 0%,    /* tea-green */
+            #7aa1d0 100%   /* wisteria-blue */
+        );
+    }
+
+    /* ── Page wrapper ────────────────────────────────────── */
+    /* Needs a transparent background so the fixed gradient
+       shows through. The default wrapper uses a solid color. */
+    .wrapper-projects {
+        width: 92%;
+        max-width: 900px;
+        margin: 0 auto;
+        background: transparent;
+    }
+
+    .page.projects {
+        margin-top: 100px;
+        padding-bottom: 5rem;
+        background: transparent;
+    }
+
+    /* Page title */
+    .page.projects h1 {
+        color: #1f363d;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+        text-align: left;
+    }
+
+    /* Thin accent rule under title */
+    .projects-divider {
+        border: none;
+        border-top: 2px solid rgba(31, 54, 61, 0.25);
+        margin: 0.5rem 0 2.5rem;
+    }
+
+    /* ── Project cards ───────────────────────────────────── */
+    /* Each project is a frosted-glass card that floats over
+       the gradient. backdrop-filter blurs the gradient behind
+       the card, giving the frosted effect. */
+    .project-card {
+        background: rgba(255, 255, 255, 0.45);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.60);
+        border-radius: 10px;
+        padding: 2rem 2.25rem;
+        margin-bottom: 1.5rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .project-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 32px rgba(31, 54, 61, 0.15);
+    }
+
+    /* Project number label */
+    .project-number {
+        font-family: monospace;
+        font-size: 0.72rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #7aa1d0;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Project title */
+    .project-card h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #1f363d;
+        margin: 0 0 0.4rem;
+        line-height: 1.3;
+    }
+
+    /* Co-authors / subtitle */
+    .project-subtitle {
+        font-size: 0.88rem;
+        color: #3a5a62;
+        font-style: italic;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Abstract / description */
+    .project-abstract {
+        font-size: 0.9rem;
+        color: #2a4248;
+        line-height: 1.7;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Footer row: tags + PDF link */
+    .project-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Tag chips */
+    .project-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .project-tag {
+        display: inline-block;
+        background: rgba(31, 54, 61, 0.08);
+        border: 1px solid rgba(31, 54, 61, 0.18);
+        color: #1f363d;
+        border-radius: 20px;
+        padding: 2px 10px;
+        font-size: 0.75rem;
+        letter-spacing: 0.03em;
+    }
+
+    /* PDF download button */
+    .project-pdf {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #1f363d;
+        color: #cfe0c3;
+        border-radius: 6px;
+        padding: 6px 14px;
+        font-size: 0.8rem;
+        text-decoration: none;
+        transition: background 0.2s, color 0.2s;
+        white-space: nowrap;
+    }
+
+    .project-pdf:hover {
+        background: #7aa1d0;
+        color: #fff;
+    }
+
+    /* PDF icon (unicode fallback — no font awesome needed) */
+    .project-pdf::before {
+        content: "↓";
+        font-size: 0.9rem;
+    }
+
+    /* Nav links need to stay readable on the gradient */
+    nav a {
+        color: #1f363d !important;
+    }
+
+    nav a:hover {
+        color: #2d4f59 !important;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Fixed gradient sits behind everything -->
+    <div class="fixed-background"></div>
+
+    <div class="wrapper-projects">
+        <div class="page projects">
+            {% include nav.html %}
+            {{ content }}
+        </div>
+    </div>
+
+</body>
+</html>

@@ -50,13 +50,16 @@ layout: compress
         margin: 0 auto;
     }
 
-    /* Pin nav and header font sizes to px so they are immune to
-       the html: 115% scaling. Values match Indigo nav.sass exactly:
-       1.4rem, 2rem, 4rem, 1.85rem all calculated at base 16px. */
-    nav .link        { font-size: 22px; }   /* nav.sass line 14 & 27: 1.4rem */
-    nav .logo        { font-size: 32px; }   /* nav.sass line 38: 2rem */
-    header .name     { font-size: 64px; }   /* header.sass line 21: 4rem */
-    header .profile  { font-size: 29.6px; } /* header.sass line 25: 1.85rem */
+    /* Pin nav font sizes to px using the exact selectors from nav.sass.
+       .nav > .list > .item > .link = regular nav  (1.4rem = 22.4px)
+       .nav-home > .list > .item > .link = home nav (2rem = 32px) */
+    .nav > .list > .item > .link,
+    .nav-home > .list > .item > .link {
+        font-size: 22.4px;
+    }
+    .nav-home > .list > .item > .link {
+        font-size: 32px;
+    }
 
     /* Page top padding to clear the fixed header */
     .page.résumé {

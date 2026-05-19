@@ -153,7 +153,7 @@ layout: resume
         <span class="resume-entry-title">Dean's Award</span>
         <span class="resume-entry-date">2019-2021</span>
       </div>
-      <div class="resume-entry-subtitle">University of MAssachusetts Amherst</div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
 
     <div class="resume-entry">

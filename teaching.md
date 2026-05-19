@@ -11,10 +11,16 @@ layout: teaching
     <h2>Econ 201: Introduction to Macroeconomics</h2>
   </div>
   <div class="main-professor">Professor O'Dea / Professor Karimirad</div>
+  <div class="mini-header">Course description</div>
   <div class="course-description">
     Analysis of the aggregate economy: national income, inflation,
     business fluctuations, unemployment, monetary system, federal budget,
     international trade and finance.
+  </div>
+  
+<div class="mini-header">Graduate Teaching Assistant</div>
+  <div class="course-description">
+    I made weekly Rowerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above avergae teacher evaluation scores. 
   </div>
 
   <div class="course-footer">

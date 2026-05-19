@@ -31,7 +31,7 @@ layout: teaching
   <div class="course-name">
     <h2>Econ 301: Introduction to Macroeconomics</h2>
   </div>
-  <div class="main-professor">Professor Brock/div>
+  <div class="main-professor">Professor Brock</div>
   <div class="course-description">
     Analysis of the determinants of the aggregate level of employment, output, prices, and income of an economy. Policy issues and applications with special reference to current monetary and fiscal policy.
   </div>

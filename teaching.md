@@ -5,7 +5,7 @@ layout: page
 
 # Teaching
 
-<span style="color:wisteria-blue"><b>Spring 2026:</b></span> Econ 201: Introduction to Macroeconomics (Professor O'Dea)
+**Spring 2026:** Econ 201: Introduction to Macroeconomics (Professor O'Dea)
 
 Analysis of the aggregate economy: national income, inflation, business fluctuations, unemployment, monetary system, federal budget, international trade and finance
 

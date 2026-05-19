@@ -138,12 +138,57 @@ layout: resume
 
     <h2>Awards & Grants</h2>
 
+Massachusetts High Demand Scholarship - Merit-based award provided to outstanding STEM students
+John and Abigail Adams Scholarship - Awarded to students based on top performance on the Massachusetts Comprehensive Assessment System (MCAS), a statewide standardized exam
+President's Award for Educational Excellence - Awarded to the highest performing students in college-level coursework
+
+
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">Lorem Fellowship in Economics</span>
-        <span class="resume-entry-date">2023</span>
+        <span class="resume-entry-title">Fellowship funding for Ph.D.</span>
+        <span class="resume-entry-date">2024-present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Massachusetts High Demand Scholarship</span>
+        <span class="resume-entry-date">2019-2021</span>
+      </div>
+      <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Dean's Award</span>
+        <span class="resume-entry-date">2019-2021</span>
+      </div>
+      <div class="resume-entry-subtitle">University of MAssachusetts Amherst</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">University of Massachuetts Amherst Grant</span>
+        <span class="resume-entry-date">2021</span>
+      </div>
+      <div class="resume-entry-subtitle">University of MAssachusetts Amherst</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">John and Abigail Adams Scholarship</span>
+        <span class="resume-entry-date">2019-2021</span>
+      </div>
+      <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">President's Award for Educational Excellence</span>
+        <span class="resume-entry-date">2018</span>
+      </div>
+      <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>
 
   </main>

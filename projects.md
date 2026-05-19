@@ -75,7 +75,7 @@ for Estimating Returns to Female Schooling</h2>
 <div class="project-card">
   <div class="project-number">Project 04</div>
   <h2>Mapping Diversity in Boston</h2>
-  <div class="project-subtitle">2025</div>
+  <div class="project-subtitle">2023</div>
   <p class="project-abstract">
     The Boston Planning and Development Agency has created a mapping tool to visualize multidimensional diversity throughout the city. In the tool, each geography is given a Diversity Index score to indicate its diversity across a certain dimension in comparison to other geographies. This tool is meant to investigate the concept of "diversity" and explore the city as whole. 
   </p>

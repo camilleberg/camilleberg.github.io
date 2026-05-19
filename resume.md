@@ -87,7 +87,7 @@ layout: resume
 
     <h2>Research Interests</h2>
     <div class="resume-entry">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Applied econometrics, labour economics, causal inference.</p>
+      <p>causal inference, econometric theory, development economics, applied econetrics and just geenrally how we can use mathematics to better our understanding</p>
     </div>
 
 

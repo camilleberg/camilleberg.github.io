@@ -8,22 +8,22 @@ layout: projects-page
 <!-- ── PROJECT 1 ─────────────────────────────────────────────── -->
 <div class="project-card">
   <div class="project-number">Project 01</div>
-  <h2>Lorem Ipsum and the Labour Market</h2>
-  <div class="project-subtitle">with Co-Author A, Co-Author B &middot; 2025</div>
+  <h2>Kernel-Based Survival Methods
+for Estimating Returns to Female Schooling</h2>
+  <div class="project-subtitle">2025</div>
   <p class="project-abstract">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.
+    I seek to examine the returns to female education across ten countries using a survival function estimated via kernel methods, relaxing the linearity assumptions embedded in standard human capital models. Existing approaches impose separability between education and experience and assume a fixed, linear rate of return for every year of schooling — assumptions that are particularly restrictive when modeling female educational trajectories, where family-level selection and time-varying treatment are prevalent. We estimate female school enrollment and dropout dynamics using survey-weighted logistic regression calibrated to national data, correcting for censoring and omitted variable bias. My approach yields dynamic and bias-corrected estimates of educational attainment that outperform standard linear and Cox regression benchmarks. 
   </p>
   <div class="project-footer">
     <div class="project-tags">
       <span class="project-tag">labour economics</span>
       <span class="project-tag">causal inference</span>
+      <span class="project-tag">development</span>
+      <span class="project-tag">gender economics</span>
+      <span class="project-tag">kernel estimation</span>
       <span class="project-tag">Python</span>
     </div>
-    <a class="project-pdf" href="{{ site.url }}/assets/docs/project1.pdf" target="_blank">
+    <a class="project-pdf" href="{{ site.url }}/assets/docs/kernel_estimation_idea.pdf" target="_blank">
       Download PDF
     </a>
   </div>

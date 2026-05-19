@@ -18,12 +18,11 @@ layout: page
 <p>
   Hi! My name is Camille. I am a Ph.D student in Economics at the
   University of Washington. My research interests sit at the
-  intersection of applied econometrics and labour economics — I
-  spend most of my time thinking about causal identification and
-  what we can actually learn from observational data.
+  intersection ofeconometrics and development. I like to think about 
+  casual identification and how we can better understand the world 
+  around us with strong mathematical principles. 
 </p>
 
 <p>
-  Outside of research I enjoy building small web tools, writing
-  about things I'm learning, and exploring the Pacific Northwest.
+  Outside of research and schoolwork I enjoy trying and making new food, visiting museums, reading, and exploring the Pacific Northwest.
 </p>

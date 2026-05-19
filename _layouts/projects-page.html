@@ -5,8 +5,6 @@ layout: compress
 <html lang="en">
 <head>
 
-    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
-
     {% if site.analytics-google %}
         {% include analytics-google.html %}
     {% endif %}
@@ -218,6 +216,19 @@ layout: compress
     }
 
     </style>
+        <!-- MathJax comment -->
+225       Use $...$ for inline math ...
+226       ... -->
+227  <script>
+228      MathJax = {
+229          tex: {
+230              inlineMath: [["$", "$"], ["\(", "\)"]],
+231              displayMath: [["$$", "$$"], ["\[", "\]"]]
+232          }
+233      };
+234  </script>
+235  <script src="https://cdn.jsdelivr.net/.../tex-chtml.js" async></script>
+
 
 </head>
 <body>

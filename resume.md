@@ -85,11 +85,6 @@ layout: resume
   <!-- ── RIGHT MAIN COLUMN ─────────────────────────────────── -->
   <main class="resume-section">
 
-    <h2>Research Interests</h2>
-    <div class="resume-entry">
-      <p>causal inference, econometric theory, development economics, applied econetrics and just geenrally how we can use mathematics to better our understanding</p>
-    </div>
-
 
     <h2>Experience</h2>
 

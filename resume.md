@@ -98,7 +98,7 @@ layout: resume
         <span class="resume-entry-title">Research Associate (promoted from Research Assistant and Data Analyst)</span>
         <span class="resume-entry-date">March 2022 – May 2024</span>
       </div>
-      <div class="resume-entry-subtitle">Lorem Ipsum Institute, Seattle</div>
+      <div class="resume-entry-subtitle">Boston Planning and Development Agency, Boston</div>
       <ul>
         <li>Developed a dynamic neighborhood population projection model in Python and R using Census and development data, producing city planning projections used across a 20-year horizon</li>
         <li>Built automated data collection pipelines in Python to update an economic recovery dashboard weekly, reducing manual data entry time by over 75%</li>
@@ -111,7 +111,7 @@ layout: resume
         <span class="resume-entry-title">Research Intern</span>
         <span class="resume-entry-date">January 2022 – March 2022</span>
       </div>
-      <div class="resume-entry-subtitle">Lorem Ipsum Institute, Seattle</div>
+      <div class="resume-entry-subtitle">Verité, Amherst</div>
       <ul>
         <li>Developed and executed a new methodology in Python to verify web API results used to monitor social impact across global supply chains</li>
         <li>Delivered data dashboards and reports mapping supply chain risks to 20+ multinational brands</li>

@@ -35,7 +35,7 @@ layout: teaching
 
 <div class="teaching-entry">
   <div class="course-name">
-    <h2>Econ 301: Introduction to Macroeconomics</h2>
+    <h2>Econ 301: Intermediate Macroeconomics</h2>
   </div>
   <div class="main-professor">Professor Brock</div>
   <div class="mini-header">Course description</div>
@@ -45,7 +45,7 @@ layout: teaching
 
   <div class="mini-header">Graduate Teaching Assistant</div>
   <div class="course-description">
-    Taught 50+ students via weekly Pwoerpoints and worksheets. Went over homework solutions and test review. 
+    Taught 50+ students via weekly Powerpoints and worksheets. Went over homework solutions and test review. 
   </div>
   
   <div class="course-footer">

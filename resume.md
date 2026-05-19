@@ -121,9 +121,9 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Data Science Intern</span>
-        <span class="resume-entry-date">Sugust 2020 – December 2020</span>
+        <span class="resume-entry-date">August 2020 – December 2020</span>
       </div>
-      <div class="resume-entry-subtitle">Verité, Amherst MA</div>
+      <div class="resume-entry-subtitle">DSC-WAV, Amherst MA</div>
       <ul>
         <li>Developed an end-to-end data pipeline and interactive dashboard for a local nonprofit, Hampshire Hope, incorporating Google Maps and transportation data </li>
         <li> Applied data wrangling, exploratory analysis, and visualization techniques to identify service-access gaps and optimize resource allocation.</li>

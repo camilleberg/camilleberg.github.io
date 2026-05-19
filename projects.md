@@ -82,7 +82,7 @@ for Estimating Returns to Female Schooling</h2>
   <div class="project-footer">
     <div class="project-tags">
       <span class="project-tag">ArcGIS</span>
-      <span class="project-tag">Census Sata</span>
+      <span class="project-tag">Census Data</span>
       <span class="project-tag">Data Visualization</span>
     </div>
     <a class="project-pdf" href="https://storymaps.arcgis.com/stories/bd384a8649094d2e80afeca6da90b92a" target="_blank">

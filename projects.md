@@ -53,11 +53,11 @@ for Estimating Returns to Female Schooling</h2>
 
 <!-- ── PROJECT 3 ─────────────────────────────────────────────── -->
 <div class="project-card">
-  <div class="project-number">Project 02</div>
+  <div class="project-number">Project 03</div>
   <h2>Kernel Ridge Regression for PDEs</h2>
   <div class="project-subtitle">2025</div>
   <p class="project-abstract">
-    We consider the Lotka-Volterra predator-prey system, a classical system of ODEs governing population dynamics. Rather than assuming knowledge of the governing equations, we treat the system as a black box and attempt to learn its dynamics purely from observations of the state trajectory. Specifically, given 50 observations of the prey and predator populations at times $t_n = 0.4n$, $n = 0, \ldots, 49$, we design a two-stage kernel regression pipeline to recover the unknown vector field $f = (f_1, f_2)$ driving the system. In the first stage, we smooth the observed trajectories using an RBF kernel and differentiate analytically to obtain derivative estimates. In the second stage, we learn the map from state space to derivatives using a second kernel $\Gamma$, comparing three kernel families: RBF, polynomial, and exponential. We find that the degree-2 polynomial kernel achieves the lowest error across all metrics, with a mean absolute error of $0.1564$ for $f_1$ and $0.1232$ for $f_2$.  
+    I consider the Lotka-Volterra predator-prey system, a classical system of ODEs governing population dynamics. Rather than assuming knowledge of the governing equations, we treat the system as a black box and attempt to learn its dynamics purely from observations of the state trajectory. Specifically, given 50 observations of the prey and predator populations at times $t_n = 0.4n$, $n = 0, \ldots, 49$, we design a two-stage kernel regression pipeline to recover the unknown vector field $f = (f_1, f_2)$ driving the system. In the first stage, we smooth the observed trajectories using an RBF kernel and differentiate analytically to obtain derivative estimates. In the second stage, we learn the map from state space to derivatives using a second kernel $\Gamma$, comparing three kernel families: RBF, polynomial, and exponential. We find that the degree-2 polynomial kernel achieves the lowest error across all metrics, with a mean absolute error of $0.1564$ for $f_1$ and $0.1232$ for $f_2$.  
   </p>
   <div class="project-footer">
     <div class="project-tags">
@@ -71,4 +71,23 @@ for Estimating Returns to Female Schooling</h2>
   </div>
 </div>
 
+<!-- ── PROJECT 4 ─────────────────────────────────────────────── -->
+<div class="project-card">
+  <div class="project-number">Project 04</div>
+  <h2>Mapping Diversity in Boston</h2>
+  <div class="project-subtitle">2025</div>
+  <p class="project-abstract">
+    The Boston Planning and Development Agency has created a mapping tool to visualize multidimensional diversity throughout the city. In the tool, each geography is given a Diversity Index score to indicate its diversity across a certain dimension in comparison to other geographies. This tool is meant to investigate the concept of "diversity" and explore the city as whole. 
+  </p>
+  <div class="project-footer">
+    <div class="project-tags">
+      <span class="project-tag">ArcGIS</span>
+      <span class="project-tag">Census Sata</span>
+      <span class="project-tag">Data Visualization</span>
+    </div>
+    <a class="project-pdf" href="https://storymaps.arcgis.com/stories/bd384a8649094d2e80afeca6da90b92a" target="_blank">
+      View the tool
+    </a>
+  </div>
+</div>
 

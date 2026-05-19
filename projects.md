@@ -23,7 +23,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">kernel estimation</span>
       <span class="project-tag">Python</span>
     </div>
-    <a class="project-pdf" href="{{ site.url }}/assets/docs/kernel_estimation_idea.pdf" target="_blank">
+    <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_kernel_estimation_idea.pdf" target="_blank">
       Download PDF
     </a>
   </div>
@@ -32,14 +32,10 @@ for Estimating Returns to Female Schooling</h2>
 <!-- ── PROJECT 2 ─────────────────────────────────────────────── -->
 <div class="project-card">
   <div class="project-number">Project 02</div>
-  <h2>Dolor Sit Amet: A Causal Study of Consectetur</h2>
-  <div class="project-subtitle">with Co-Author C &middot; 2024</div>
+  <h2>A Household in Transition: A Study on Dynamics</h2>
+  <div class="project-subtitle">2025</div>
   <p class="project-abstract">
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
-    natus error sit voluptatem accusantium doloremque laudantium, totam rem
-    aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto
-    beatae vitae dicta sunt explicabo.
+    Intra-household bargaining power has been shown to increase with a positive non-labor income shock to women. I propose a new method to study female empowerment as a result of the receipt of a cash transfer. Previous research on dynamics has relied solely on cross-sectional analysis. Using data from a cash transfer experiment in Malawi and Liberia, I analyze the dynamics using impulse response function estimation and dynamic multipliers. This paper is therefore the first to estimate impulse response functions of intra-household bargaining power using high-frequency experimental panel data. 
   </p>
   <div class="project-footer">
     <div class="project-tags">
@@ -47,7 +43,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">R</span>
       <span class="project-tag">Stata</span>
     </div>
-    <a class="project-pdf" href="{{ site.url }}/assets/docs/project2.pdf" target="_blank">
+    <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_Proposal_Household_Dynamics.pdf" target="_blank">
       Download PDF
     </a>
   </div>

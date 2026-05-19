@@ -9,6 +9,7 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
+
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.title }}">
@@ -36,6 +37,13 @@ layout: compress
 
     {{ scss_sheet | scssify }}
 
+
+    /* rem units are relative to the ROOT html element, not the parent.
+       Setting font-size here is the only way to scale all rem values. */
+    html {
+        font-size: 115%;
+    }
+
     /* ── Fixed gradient background ───────────────────────── */
     /* position: fixed keeps it in place while content scrolls.
        z-index: -1 pushes it behind everything else on the page. */
@@ -48,7 +56,7 @@ layout: compress
         z-index: -1;
         background: linear-gradient(
             135deg,
-            #cfe0c3 0%,    /* tea-green */
+            #fcfcfc 0%,
             #7aa1d0 100%   /* wisteria-blue */
         );
     }

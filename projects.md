@@ -8,8 +8,7 @@ layout: projects-page
 <!-- ── PROJECT 1 ─────────────────────────────────────────────── -->
 <div class="project-card">
   <div class="project-number">Project 01</div>
-  <h2>Kernel-Based Survival Methods
-for Estimating Returns to Female Schooling</h2>
+  <h2>Kernel-Based Survival Methods for Estimating Returns to Female Schooling</h2>
   <div class="project-subtitle">2026</div>
   <p class="project-abstract">
     I seek to examine the returns to female education across ten countries using a survival function estimated via kernel methods, relaxing the linearity assumptions embedded in standard human capital models. Existing approaches impose separability between education and experience and assume a fixed, linear rate of return for every year of schooling — assumptions that are particularly restrictive when modeling female educational trajectories, where family-level selection and time-varying treatment are prevalent. I seek to estimate female school enrollment and dropout dynamics using survey-weighted logistic regression calibrated to national data, correcting for censoring and omitted variable bias. My approach will yields dynamic and bias-corrected estimates of educational attainment that outperform standard linear and Cox regression benchmarks. 

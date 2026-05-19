@@ -24,7 +24,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">Python</span>
     </div>
     <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_kernel_estimation_idea.pdf" target="_blank">
-      Download PDF
+      Download the slides
     </a>
   </div>
 </div>
@@ -46,7 +46,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">household dynamics</span>
     </div>
     <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_Proposal_Household_Dynamics.pdf" target="_blank">
-      Download PDF
+      Download the proposal
     </a>
   </div>
 </div>
@@ -57,7 +57,7 @@ for Estimating Returns to Female Schooling</h2>
   <h2>Kernel Ridge Regression for PDEs</h2>
   <div class="project-subtitle">2026</div>
   <p class="project-abstract">
-    I consider the Lotka-Volterra predator-prey system, a classical system of ODEs governing population dynamics. Rather than assuming knowledge of the governing equations, we treat the system as a black box and attempt to learn its dynamics purely from observations of the state trajectory. Specifically, given 50 observations of the prey and predator populations at times $t_n = 0.4n$, $n = 0, \ldots, 49$, I design a two-stage kernel regression pipeline to recover the unknown vector field $f = (f_1, f_2)$ driving the system. In the first stage, we smooth the observed trajectories using an RBF kernel and differentiate analytically to obtain derivative estimates. In the second stage, we learn the map from state space to derivatives using a second kernel $\Gamma$, comparing three kernel families: RBF, polynomial, and exponential. We find that the degree-2 polynomial kernel achieves the lowest error across all metrics, with a mean absolute error of $0.1564$ for $f_1$ and $0.1232$ for $f_2$.  
+    I consider the Lotka-Volterra predator-prey system, a classical system of ODEs governing population dynamics. Rather than assuming knowledge of the governing equations, we treat the system as a black box and attempt to learn its dynamics purely from observations of the state trajectory. Specifically, given 50 observations of the prey and predator populations at times $t_n = 0.4n$, $n = 0, \ldots, 49$, I design a two-stage kernel regression pipeline to recover the unknown vector field $f = (f_1, f_2)$ driving the system. In the first stage, I smooth the observed trajectories using an RBF kernel and differentiate analytically to obtain derivative estimates. In the second stage, I learn the map from state space to derivatives using a second kernel $\Gamma$, comparing three kernel families: RBF, polynomial, and exponential. We find that the degree-2 polynomial kernel achieves the lowest error across all metrics, with a mean absolute error of $0.1564$ for $f_1$ and $0.1232$ for $f_2$.  
   </p>
   <div class="project-footer">
     <div class="project-tags">
@@ -66,7 +66,7 @@ for Estimating Returns to Female Schooling</h2>
       <span class="project-tag">Kernel Ridge Regression</span>
     </div>
     <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_kernel_PDE.pdf" target="_blank">
-      Download PDF
+      Download the report
     </a>
   </div>
 </div>

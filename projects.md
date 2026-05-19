@@ -3,6 +3,7 @@ title: Projects
 layout: projects-page
 ---
 
+<h1>Projects</h1>
 <hr class="projects-divider">
 
 <!-- ── PROJECT 1 ─────────────────────────────────────────────── -->

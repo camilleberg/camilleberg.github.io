@@ -49,25 +49,4 @@ for Estimating Returns to Female Schooling</h2>
   </div>
 </div>
 
-<!-- ── PROJECT 3 ─────────────────────────────────────────────── -->
-<div class="project-card">
-  <div class="project-number">Project 03</div>
-  <h2>Nemo Enim Ipsam: Spatial Analysis of Voluptatem</h2>
-  <div class="project-subtitle">2024</div>
-  <p class="project-abstract">
-    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-    nesciunt. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-    consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt.
-  </p>
-  <div class="project-footer">
-    <div class="project-tags">
-      <span class="project-tag">spatial economics</span>
-      <span class="project-tag">ArcGIS Pro</span>
-      <span class="project-tag">Python</span>
-    </div>
-    <a class="project-pdf" href="{{ site.url }}/assets/docs/project3.pdf" target="_blank">
-      Download PDF
-    </a>
-  </div>
-</div>
+

@@ -1,0 +1,25 @@
+---
+title: Teaching
+layout: page
+---
+<hr class="teaching-divider">
+
+<div class="teaching-entry">
+  <div class="course-name">
+    <h2>Econ 201: Introduction to Macroeconomics</h2>
+  </div>
+  <div class="main-professor">Professor O'Dea and Professor Karimirad</div>
+  <div class="course-description">
+    Analysis of the aggregate economy: national income, inflation,
+    business fluctuations, unemployment, monetary system, federal budget,
+    international trade and finance.
+  </div>
+  <div class="course-footer">
+    <div class="quarter-tags">
+      <span class="course-tag">Spring 2026</span>
+      <span class="course-tag">Winter 2026</span>
+      <span class="course-tag">Spring 2025</span>
+      <span class="course-tag">Winter 2025</span>
+    </div>
+  </div>
+</div>

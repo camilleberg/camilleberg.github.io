@@ -1,0 +1,177 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% if site.analytics-google %}
+        {% include analytics-google.html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=author content="{{ site.title }}">
+
+    {% seo %}
+
+    {% include favicon.html %}
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    <style>
+
+    {% if site.dark-theme == "auto" %}
+        {% capture scss_sheet %}
+            {% include style.scss %}
+            @media (prefers-color-scheme: dark) {
+                {% include style-dark.scss %}
+            }
+        {% endcapture %}
+    {% elsif site.dark-theme %}
+        {% capture scss_sheet %}{% include style-dark.scss %}{% endcapture %}
+    {% else %}
+        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {% endif %}
+
+    {{ scss_sheet | scssify }}
+
+    /* Match resume page font scaling — 115% on html root scales
+       all rem values uniformly. Nav is pinned to px below to opt out. */
+    html {
+        font-size: 115%;
+    }
+
+
+    /* ── Page wrapper ────────────────────────────────────── */
+    .wrapper-teaching {
+        width: 92%;
+        max-width: 900px;
+        margin: 0 auto;
+        background: transparent;
+    }
+
+    .page.teaching {
+        margin-top: 100px;
+        padding-bottom: 5rem;
+        background: transparent;
+    }
+
+    /* Page title */
+    .page.teaching h1 {
+        color: #1f363d;
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
+        text-align: left;
+    }
+
+    /* Thin accent rule under title */
+    .teaching-divider {
+        border: none;
+        border-top: 2px solid #7aa1d0;
+        margin: 0.5rem 0 2rem;
+    }
+
+    /* ── Project cards ───────────────────────────────────── */
+    .teaching-entry {
+        border: 1px solid rgba(255, 255, 255, 0.60);
+        border-radius: 10px;
+        padding: 2rem 2.25rem;
+        margin-bottom: 1.5rem;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    /* Project title */
+    .course-name h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #1f363d;
+        margin: 0 0 0.4rem;
+        line-height: 1.3;
+    }
+
+    /* Co-authors / subtitle */
+    .main-professor {
+        font-size: 0.88rem;
+        color: #3a5a62;
+        font-style: italic;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Abstract / description */
+    .course-description {
+        font-size: 0.9rem;
+        color: #2a4248;
+        line-height: 1.7;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Footer row: tags + PDF link */
+    .course-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Tag chips */
+    .quarter-tags {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+    }
+
+    .course-tag {
+        display: inline-block;
+        background: rgba(31, 54, 61, 0.08);
+        border: 1px solid rgba(31, 54, 61, 0.18);
+        color: #1f363d;
+        border-radius: 20px;
+        padding: 2px 10px;
+        font-size: 0.75rem;
+        letter-spacing: 0.03em;
+    }
+
+
+    /* Pin nav font sizes to px — immune to html: 115% scaling */
+    .nav > .list > .item > .link,
+    .nav-home > .list > .item > .link {
+        font-size: 22.4px;
+    }
+    .nav-home > .list > .item > .link {
+        font-size: 32px;
+    }
+
+
+    </style>
+
+    <!-- MathJax — renders LaTeX math in project descriptions.
+         Inline math: $...$ or \(...\)
+         Display math: $$...$$ or \[...\]  -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+</head>
+<body>
+
+    <!-- Fixed background sits behind everything -->
+    <div class="fixed-background"></div>
+
+    <div class="wrapper-teaching">
+        <div class="page teaching">
+            {% include nav.html %}
+            {{ content }}
+        </div>
+    </div>
+
+</body>
+</html>

@@ -9,6 +9,9 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name=author content="{{ site.title }}">
 
     {% seo %}
 
@@ -40,8 +43,6 @@ layout: compress
     }
 
     /* ── Fixed gradient background ───────────────────────── */
-    /* position: fixed keeps it in place while content scrolls.
-       z-index: -1 pushes it behind everything else on the page. */
     .fixed-background {
         position: fixed;
         top: 0;
@@ -53,8 +54,6 @@ layout: compress
     }
 
     /* ── Page wrapper ────────────────────────────────────── */
-    /* Needs a transparent background so the fixed gradient
-       shows through. The default wrapper uses a solid color. */
     .wrapper-projects {
         width: 92%;
         max-width: 900px;
@@ -85,9 +84,6 @@ layout: compress
     }
 
     /* ── Project cards ───────────────────────────────────── */
-    /* Each project is a frosted-glass card that floats over
-       the gradient. backdrop-filter blurs the gradient behind
-       the card, giving the frosted effect. */
     .project-card {
         background: rgba(255, 255, 255, 0.45);
         backdrop-filter: blur(10px);
@@ -186,15 +182,13 @@ layout: compress
         color: #fff;
     }
 
-    /* PDF icon (unicode fallback — no font awesome needed) */
+    /* PDF icon unicode arrow */
     .project-pdf::before {
         content: "↓";
         font-size: 0.9rem;
     }
 
-    /* Pin nav font sizes to px using the exact selectors from nav.sass.
-       .nav > .list > .item > .link = regular nav  (1.4rem = 22.4px)
-       .nav-home > .list > .item > .link = home nav (2rem = 32px) */
+    /* Pin nav font sizes to px — immune to html: 115% scaling */
     .nav > .list > .item > .link,
     .nav-home > .list > .item > .link {
         font-size: 22.4px;
@@ -203,7 +197,7 @@ layout: compress
         font-size: 32px;
     }
 
-    /* Nav links need to stay readable on the gradient */
+    /* Nav links readable on background */
     nav a {
         color: #1f363d !important;
     }
@@ -213,24 +207,24 @@ layout: compress
     }
 
     </style>
-        <!-- MathJax comment -->
-225       Use $...$ for inline math ...
-226       ... -->
-227  <script>
-228      MathJax = {
-229          tex: {
-230              inlineMath: [["$", "$"], ["\(", "\)"]],
-231              displayMath: [["$$", "$$"], ["\[", "\]"]]
-232          }
-233      };
-234  </script>
-235  <script src="https://cdn.jsdelivr.net/.../tex-chtml.js" async></script>
 
+    <!-- MathJax — renders LaTeX math in project descriptions.
+         Inline math: $...$ or \(...\)
+         Display math: $$...$$ or \[...\]  -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
 
 </head>
 <body>
 
-    <!-- Fixed gradient sits behind everything -->
+    <!-- Fixed background sits behind everything -->
     <div class="fixed-background"></div>
 
     <div class="wrapper-projects">

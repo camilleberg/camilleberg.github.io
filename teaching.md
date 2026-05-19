@@ -17,8 +17,6 @@ layout: teaching
     international trade and finance.
   </div>
 
-  <div class=">
-
   <div class="course-footer">
     <div class="quarter-tags">
       <span class="course-tag">Spring 2026</span>

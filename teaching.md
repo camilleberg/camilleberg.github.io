@@ -6,14 +6,14 @@ layout: page
 <h2> Teaching </h2>
 
 
-<span style="#3a6472>Spring 2026, Winter 2026, Spring 2025, and Winter 2025:</span> Econ 201: Introduction to Macroeconomics (Professor O'Dea and Professor Karimirad)
+<p><span style="#3a6472>Spring 2026, Winter 2026, Spring 2025, and Winter 2025:</span> Econ 201: Introduction to Macroeconomics (Professor O'Dea and Professor Karimirad)</p>
 
 **Course Description:** Analysis of the aggregate economy: national income, inflation, business fluctuations, unemployment, monetary system, federal budget, international trade and finance.
 
 **Graduate Teahcing Assistant Role** I made weekly Rowerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above avergae teacher evaluation scores. 
 
 
-<span style="#3a6472>Autumn 2026:</span> Econ 301: Intermediate Macroeconomics (Professor Brock)
+<p><span style="#3a6472>Autumn 2026:</span> Econ 301: Intermediate Macroeconomics (Professor Brock)</p>
 
 **Course Description:** Analysis of the determinants of the aggregate level of employment, output, prices, and income of an economy. Policy issues and applications with special reference to current monetary and fiscal policy.
 

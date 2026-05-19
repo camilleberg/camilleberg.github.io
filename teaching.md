@@ -2,6 +2,8 @@
 title: Teaching
 layout: teaching
 ---
+
+<h1>Teaching</h1>
 <hr class="teaching-divider">
 
 <div class="teaching-entry">

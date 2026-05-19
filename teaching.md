@@ -20,7 +20,7 @@ layout: teaching
   
 <div class="mini-header">Graduate Teaching Assistant</div>
   <div class="course-description">
-    I made weekly Rowerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above avergae teacher evaluation scores. 
+    I made weekly Powerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above average teacher evaluation scores. 
   </div>
 
   <div class="course-footer">
@@ -45,7 +45,7 @@ layout: teaching
 
   <div class="mini-header">Graduate Teaching Assistant</div>
   <div class="course-description">
-    I made weekly Rowerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above avergae teacher evaluation scores. 
+    Taught 50+ students via weekly Pwoerpoints and worksheets. Went over homework solutions and test review. 
   </div>
   
   <div class="course-footer">

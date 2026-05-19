@@ -2,7 +2,7 @@
 title: Résumé
 layout: resume
 ---
-
+<h1>Résumé</h1>
 <hr class="resume-divider">
 
 <div class="resume-grid">

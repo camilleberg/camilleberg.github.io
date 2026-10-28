@@ -8,6 +8,50 @@ layout: teaching
 
 <div class="teaching-entry">
   <div class="course-name">
+    <h2>Econ 200: Introduction to Microeconomics</h2>
+  </div>
+  <div class="main-professor">Professor Sibley / Professor Midnight</div>
+  <div class="mini-header">Course description</div>
+  <div class="course-description">
+    Analysis of markets: consumer demand, production, exchange, the price system, resource allocation, government intervention.
+  </div>
+  
+<div class="mini-header">Graduate Teaching Assistant Coordinator</div>
+  <div class="course-description">
+    I worked closely with the Professors to manage and organize the teaching assistants for the large introductory classes.
+  </div>
+
+  <div class="course-footer">
+    <div class="quarter-tags">
+      <span class="course-tag">Autumn 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="teaching-entry">
+  <div class="course-name">
+    <h2>MSIS 512: Information Security and Assurance in a Networked World</h2>
+  </div>
+  <div class="main-professor">Professor Lee</div>
+  <div class="mini-header">Course description</div>
+  <div class="course-description">
+    Explores technical and managerial aspects of information security and assurance within a networked environment. Includes inspection and protection of information assets, detection of and reaction to internal and external threats, determining the levels of protection needed, and design of a consistent and reasonable information security architecture along with an implementable process.
+  </div>
+  
+<div class="mini-header">Grader / Course Assistant</div>
+  <div class="course-description">
+    Attended some lectures and graded student work, icnlusing quizzes, case reports, and group presentations.
+  </div>
+
+  <div class="course-footer">
+    <div class="quarter-tags">
+      <span class="course-tag">Autumn 2026</span>
+    </div>
+  </div>
+</div>
+
+<div class="teaching-entry">
+  <div class="course-name">
     <h2>Econ 201: Introduction to Macroeconomics</h2>
   </div>
   <div class="main-professor">Professor O'Dea / Professor Karimirad</div>
@@ -50,7 +94,7 @@ layout: teaching
   
   <div class="course-footer">
     <div class="quarter-tags">
-      <span class="course-tag">Autumn 2026</span>
+      <span class="course-tag">Autumn 2025</span>
     </div>
   </div>
 </div>

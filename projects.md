@@ -51,9 +51,33 @@ layout: projects-page
   </div>
 </div>
 
+
 <!-- ── PROJECT 3 ─────────────────────────────────────────────── -->
 <div class="project-card">
   <div class="project-number">Project 03</div>
+  <h2>Approaching Wealth Inequality with Subdiffusion Processes</h2>
+  <div class="project-subtitle">2026</div>
+  <p class="project-abstract">
+    Standard Bewley-Huggett-Aiyagari (BHA) heterogeneous-agent mod els assume that individual labor income follows a Markov process with Gaussian innovations, implying that agents are memoryless and that income variance grows linearly in time. However, a growing empirical literature documents that earnings dynamics are fundamentally non-Gaussian and non-Markovian, exhibiting heavy tails, asymmetric persistence, and long memory. This proposal introduces subdiffusion into the BHA framework by recasting the income process as a Continuous Time Random Walk (CTRW), in which agents pause for heavy-tailed waiting times between transitions. At the macroscopic level, this yields a variational time-fractional Mean Field Game (MFG) system consisting of a backward time-fractional Hamilton-Jacobi-Bellman equation and a forward time-fractional Fokker-Planck equation, following the framework of Qing and Camilli (2018). I propose to solve this system using the continuous-time finite difference approach of Achdou et al. (2022), adapted for fractional operators, and implemented via the MFAX framework of Wibault et al.(2026). The model is calibrated against the Survey of Consumer Finances and Social Security Administration earnings data, with the subdiffusion exponent identified from the kurtosis-horizon relationship documented inGuvenen et al. (2015).
+  </p>
+  <div class="project-footer">
+    <div class="project-tags">
+      <span class="project-tag">computationla macroeconomics</span>
+      <span class="project-tag">mean field</span>
+      <span class="project-tag">inequaity</span>
+      <span class="project-tag">macroeconomics</span>
+      <span class="project-tag">distirbutinal anaysis</span>
+      <span class="project-tag">power laws</span>
+    </div>
+    <a class="project-pdf" href="{{ site.url }}/assets/docs/Bergeron_Wealth_Inequality_Proposal.pdf" target="_blank">
+      Download the proposal
+    </a>
+  </div>
+</div>
+
+<!-- ── PROJECT 4 ─────────────────────────────────────────────── -->
+<div class="project-card">
+  <div class="project-number">Project 04</div>
   <h2>Kernel Ridge Regression for PDEs</h2>
   <div class="project-subtitle">2026</div>
   <p class="project-abstract">
@@ -71,9 +95,9 @@ layout: projects-page
   </div>
 </div>
 
-<!-- ── PROJECT 4 ─────────────────────────────────────────────── -->
+<!-- ── PROJECT 5 ─────────────────────────────────────────────── -->
 <div class="project-card">
-  <div class="project-number">Project 04</div>
+  <div class="project-number">Project 05</div>
   <h2>Mapping Diversity in Boston</h2>
   <div class="project-subtitle">2023</div>
   <p class="project-abstract">

@@ -62,7 +62,7 @@ layout: projects-page
   </p>
   <div class="project-footer">
     <div class="project-tags">
-      <span class="project-tag">computationla macroeconomics</span>
+      <span class="project-tag">computational macroeconomics</span>
       <span class="project-tag">mean field</span>
       <span class="project-tag">inequaity</span>
       <span class="project-tag">macroeconomics</span>

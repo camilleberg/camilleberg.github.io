@@ -64,7 +64,7 @@ layout: teaching
   
 <div class="mini-header">Graduate Teaching Assistant</div>
   <div class="course-description">
-    I made weekly Powerpoints and walked through all the problems with the students. Created stdy guides and example questions to enhance student learning, receiving above average teacher evaluation scores. 
+    I made weekly Powerpoints and walked through all the problems with the students. Created study guides and example questions to enhance student learning, receiving above average teacher evaluation scores. 
   </div>
 
   <div class="course-footer">

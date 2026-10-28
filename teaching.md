@@ -40,7 +40,7 @@ layout: teaching
   
 <div class="mini-header">Grader / Course Assistant</div>
   <div class="course-description">
-    Attended some lectures and graded student work, icnlusing quizzes, case reports, and group presentations.
+    Attended some lectures and graded student work, including quizzes, case reports, and group presentations.
   </div>
 
   <div class="course-footer">

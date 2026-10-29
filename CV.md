@@ -2,19 +2,96 @@
 title: Curriculum Vitae
 layout: resume
 ---
-<h1>Curriculum Vitae</h1>
+
+<h1>Résumé</h1>
 <hr class="resume-divider">
 
 <div class="resume-grid">
 
+  <!-- ── LEFT SIDEBAR ─────────────────────────────────────── -->
+  <aside class="resume-section">
+
+    <h2>Education</h2>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Ph.D. Economics</span>
+        <span class="resume-entry-date">2024 – present</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">M.S. Economics</span>
+        <span class="resume-entry-date">2024 – 2026</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">B.S. Mathematics (Statistics and Data Science)</span>
+        <span class="resume-entry-date">2018 – 2021</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">B.A. Economics</span>
+        <span class="resume-entry-date">2018 – 2021</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="skill-chips">
+      <span class="skill-chip" data-tooltip="4 years (data wrangling, computational macro parallelization, tuning kernel estimators)">Python</span>
+      <span class="skill-chip" data-tooltip="6 years (data analysis, regression testing, mapping, and data visualization)">R</span>
+      <span class="skill-chip" data-tooltip="3 years (data cleaning, regressions)">Stata</span>
+      <span class="skill-chip" data-tooltip="2 years (Dynare, solving value function iteration problems)">Matlab</span>
+      <span class="skill-chip" data-tooltip="3 years (Mappingm spatial anysis, proximity)">ArcGIS Pro</span>
+      <span class="skill-chip" data-tooltip="2 years (dynamic updating and modeling)">Excel VBA</span>
+      <span class="skill-chip" data-tooltip="1 year (Data analysis --- mostly done through R)">SQL</span>
+      <span class="skill-chip" data-tooltip="6 years (project mamagement)">Git</span>
+      <span class="skill-chip" data-tooltip="1 year (trafic tracker, A/B testing)">Google Analytics</span>
+      <span class="skill-chip" data-tooltip="4 years (blog post formatting)">HTML</span>
+      <span class="skill-chip" data-tooltip="2 years (small graphics)">Photoshop</span>
+      <span class="skill-chip" data-tooltip="5 years (Report formatting, presentations)">LaTeX</span>
+      <span class="skill-chip" data-tooltip="1 month (this website!)">Jekyll</span>
+      <span class="skill-chip" data-tooltip="2 month (this website!)">Docker</span>
+      <span class="skill-chip" data-tooltip="1 year (very limited but can pick up again)">C++</span>
+    </div>
+
+    <h2>Languages</h2>
+    <div class="skill-chips">
+      <span class="skill-chip" data-tooltip="Spoke English at home!">English (native)</span>
+      <span class="skill-chip" data-tooltip="Studied for 6 years and still occasionaly read the news and some recipes">French (proficient)</span>
+      <span class="skill-chip" data-tooltip="Studied abroad for immersive language experience in Taiwan">Standard Chinese (student)</span>
+      <span class="skill-chip" data-tooltip="Took an introductory class, keep up with duolingo">Hindi (student)</span>
+    </div>
+
+    <h2>Hobbies</h2>
+    <div class="skill-chips">
+      <span class="skill-chip" data-tooltip="mostly short stories and fiction">&#128214; reading</span>
+      <span class="skill-chip">&#127939;&#127995;&zwj;&#9792; working out</span>
+      <span class="skill-chip">&#127856; baking</span>
+      <span class="skill-chip">&#127912; painting</span>
+      <span class="skill-chip">&#127793; plants</span>
+    </div>
+
+  </aside>
+
   <!-- ── RIGHT MAIN COLUMN ─────────────────────────────────── -->
   <main class="resume-section">
+
 
     <h2>Experience</h2>
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title"try</span>
+        <span class="resume-entry-title">Research Associate (promoted from Research Assistant and Data Analyst)</span>
         <span class="resume-entry-date">March 2022 – May 2024</span>
       </div>
       <div class="resume-entry-subtitle">Boston Planning and Development Agency, Boston MA</div>

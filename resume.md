@@ -22,7 +22,7 @@ layout: resume
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">M.S. Economics</span>
+        <span class="resume-entry-title">M.A. Economics</span>
         <span class="resume-entry-date">2024 – 2026</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>

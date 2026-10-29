@@ -10,12 +10,11 @@ layout: resume
   <!-- ── RIGHT MAIN COLUMN ─────────────────────────────────── -->
   <main class="resume-section">
 
-
     <h2>Experience</h2>
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">Research Associate (promoted from Research Assistant and Data Analyst)</span>
+        <span class="resume-entry-title"try</span>
         <span class="resume-entry-date">March 2022 – May 2024</span>
       </div>
       <div class="resume-entry-subtitle">Boston Planning and Development Agency, Boston MA</div>

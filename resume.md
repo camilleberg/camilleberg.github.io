@@ -77,7 +77,7 @@ layout: resume
       <span class="skill-chip" data-tooltip="I like to go to te gym and yoga to calm my mind">&#127939;&#127995;&zwj;&#9792; working out</span>
       <span class="skill-chip" data-tooltip="I really enjoy trying new recipes for desserts">&#127856; baking</span>
       <span class="skill-chip" data-tooltip="I enjoy acrylic on canvas painting (specifically of people)">&#127912; painting</span>
-      <span class="skill-chip" data-tooltip="my plant collection is gettin gout of hand">&#127793; plants</span>
+      <span class="skill-chip" data-tooltip="my plant collection is getting out of hand">&#127793; plants</span>
       <span class="skill-chip" data-tooltip="It's been really fun leanring how clothign is made and constructed">&#129697; sewing</span>
     </div>
 

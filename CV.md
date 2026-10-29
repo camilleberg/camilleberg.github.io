@@ -7,7 +7,7 @@ permalink: /cv/
 <h1>Curriculum Vitae</h1>
 <hr class="resume-divider">
 
-<div class="resume-grid">
+
 
 
   <!-- ── RIGHT MAIN COLUMN ─────────────────────────────────── -->
@@ -58,6 +58,32 @@ permalink: /cv/
       <ul>
         <li>fdkfkd</li>
       </ul>
+    </div>
+
+    <h2>Academic Positions</h2>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Teaching Assistant Coordinator</span>
+        <span class="resume-entry-date">2024-present</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Graduate Teaching Assistant</span>
+        <span class="resume-entry-date">2024-present</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
+    </div>
+
+     <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Grader</span>
+        <span class="resume-entry-date">2024-present</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Washington</div>
     </div>
 
     <h2>Awards & Grants</h2>
@@ -112,4 +138,3 @@ permalink: /cv/
 
   </main>
 
-</div>

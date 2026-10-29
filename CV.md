@@ -50,6 +50,22 @@ permalink: /cv/
 
     <h2>Research Interests</h2>
 
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Primary Field</span>
+      </div>
+      <div class="resume-entry-subtitle">Development and Econometrics
+      </div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Interests</span>
+      </div>
+      <div class="resume-entry-subtitle">Labor, Gender, Casusal Inference, Modeling
+      </div>
+    </div>
+
     <h2>Academic Positions</h2>
 
     <div class="resume-entry">

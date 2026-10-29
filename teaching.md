@@ -10,7 +10,7 @@ layout: teaching
   <div class="course-name">
     <h2>Econ 200: Introduction to Microeconomics</h2>
   </div>
-  <div class="main-professor">Professor Sibley / Professor Midnight</div>
+  <div class="main-professor">Professor Melissa Sibley / Professor Yael Midnight</div>
   <div class="mini-header">Course description</div>
   <div class="course-description">
     Analysis of markets: consumer demand, production, exchange, the price system, resource allocation, government intervention.
@@ -32,7 +32,7 @@ layout: teaching
   <div class="course-name">
     <h2>MSIS 512: Information Security and Assurance in a Networked World</h2>
   </div>
-  <div class="main-professor">Professor Lee</div>
+  <div class="main-professor">Professor Stephanie Lee</div>
   <div class="mini-header">Course description</div>
   <div class="course-description">
     Explores technical and managerial aspects of information security and assurance within a networked environment. Includes inspection and protection of information assets, detection of and reaction to internal and external threats, determining the levels of protection needed, and design of a consistent and reasonable information security architecture along with an implementable process.
@@ -54,7 +54,7 @@ layout: teaching
   <div class="course-name">
     <h2>Econ 201: Introduction to Macroeconomics</h2>
   </div>
-  <div class="main-professor">Professor O'Dea / Professor Karimirad</div>
+  <div class="main-professor">Professor Dennis O'Dea / Professor Ali Karimirad</div>
   <div class="mini-header">Course description</div>
   <div class="course-description">
     Analysis of the aggregate economy: national income, inflation,
@@ -81,7 +81,7 @@ layout: teaching
   <div class="course-name">
     <h2>Econ 301: Intermediate Macroeconomics</h2>
   </div>
-  <div class="main-professor">Professor Brock</div>
+  <div class="main-professor">Professor Phillip Brock</div>
   <div class="mini-header">Course description</div>
   <div class="course-description">
     Analysis of the determinants of the aggregate level of employment, output, prices, and income of an economy. Policy issues and applications with special reference to current monetary and fiscal policy.

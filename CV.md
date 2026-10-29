@@ -18,7 +18,7 @@ permalink: /cv/
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">Ph.D. Economcis</span>
+        <span class="resume-entry-title">Ph.D. Economics</span>
         <span class="resume-entry-date">2024 – present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>

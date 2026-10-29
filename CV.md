@@ -19,7 +19,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Ph.D. Economcis</span>
-        <span class="resume-entry-date">August 2024 – present</span>
+        <span class="resume-entry-date">2024 – present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
@@ -27,7 +27,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">M.A. Economics</span>
-        <span class="resume-entry-date">August 2024 – August 2026</span>
+        <span class="resume-entry-date">2024 – 2026</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
@@ -35,7 +35,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">B.S. Mathematics (Statistics and Data Science)</span>
-        <span class="resume-entry-date">August 2018 – May 2021</span>
+        <span class="resume-entry-date">2018 – 2021</span>
       </div>
       <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
     </div>
@@ -43,7 +43,7 @@ permalink: /cv/
      <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">B.A. Economics</span>
-        <span class="resume-entry-date">August 2018 – May 2021</span>
+        <span class="resume-entry-date">2018 – 2021</span>
       </div>
       <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
     </div>

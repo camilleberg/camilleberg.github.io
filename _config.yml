@@ -94,7 +94,7 @@ projects: true
 about: true
 teaching: true
 resume: true
-CV: true  
+cv: true  
 # because apparently its url
 # blog: true   ← uncomment when you have posts to show
 

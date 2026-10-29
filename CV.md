@@ -99,7 +99,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Massachusetts High Demand Scholarship</span>
-        <span class="resume-entry-date">2019-2021</span>
+        <span class="resume-entry-date">2018-2021</span>
       </div>
       <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>
@@ -107,7 +107,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Dean's Award</span>
-        <span class="resume-entry-date">2019-2021</span>
+        <span class="resume-entry-date">2018-2021</span>
       </div>
       <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
@@ -123,7 +123,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">John and Abigail Adams Scholarship</span>
-        <span class="resume-entry-date">2019-2021</span>
+        <span class="resume-entry-date">2018-2021</span>
       </div>
       <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>

@@ -1,9 +1,10 @@
 ---
 title: Curriculum Vitae
 layout: resume
+permalink: /cv/
 ---
 
-<h1>Résumé</h1>
+<h1>Curriculum Vitae</h1>
 <hr class="resume-divider">
 
 <div class="resume-grid">

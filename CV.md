@@ -22,9 +22,6 @@ permalink: /cv/
         <span class="resume-entry-date">August 2024 – present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
-      <ul>
-        <li>IDK</li>
-      </ul>
     </div>
 
     <div class="resume-entry">
@@ -33,9 +30,6 @@ permalink: /cv/
         <span class="resume-entry-date">August 2024 – August 2026</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
-      <ul>
-        <li>ehhe</li>
-      </ul>
     </div>
 
     <div class="resume-entry">
@@ -44,9 +38,6 @@ permalink: /cv/
         <span class="resume-entry-date">August 2018 – May 2021</span>
       </div>
       <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
-      <ul>
-        <li>fdkfkd</li>
-      </ul>
     </div>
 
      <div class="resume-entry">
@@ -55,10 +46,9 @@ permalink: /cv/
         <span class="resume-entry-date">August 2018 – May 2021</span>
       </div>
       <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
-      <ul>
-        <li>fdkfkd</li>
-      </ul>
     </div>
+
+    <h2>Research Interests</h2>
 
     <h2>Academic Positions</h2>
 
@@ -85,6 +75,8 @@ permalink: /cv/
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
+
+    <h2>Research Experience</h2>
 
     <h2>Awards & Grants</h2>
 
@@ -135,6 +127,8 @@ permalink: /cv/
       </div>
       <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>
+
+    <h2>Service</h2>
 
   </main>
 

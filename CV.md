@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-layout: resume
+layout: cv
 permalink: /cv/
 ---
 

@@ -17,6 +17,9 @@ layout: compress
 
     {% include favicon.html %}
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
 
     <style>
@@ -71,6 +74,33 @@ layout: compress
         border: none;
         border-top: 2px solid #7aa1d0;
         margin: 0.5rem 0 2rem;
+    }
+
+    .resume-header {
+    display: flex;
+    justify-content: space-between;  /* h1 left, icons right */
+    align-items: center;             /* same horizontal line */
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    }
+
+    .resume-header h1 {
+    margin: 0;
+    line-height: 1;
+    }
+
+    .resume-header .social-links {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    }
+
+    .resume-header .social-links .link {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    margin: 0 0 0 0.75rem;
     }
 
     /* ── Project cards ───────────────────────────────────── */

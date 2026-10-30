@@ -3,7 +3,10 @@ title: Teaching
 layout: teaching
 ---
 
+<div class="resume-header">
 <h1>Teaching</h1>
+  {% include social-links.html %}
+</div>
 <hr class="teaching-divider">
 
 <div class="teaching-entry">

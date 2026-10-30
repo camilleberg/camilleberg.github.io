@@ -2,8 +2,14 @@
 title: Résumé
 layout: resume
 ---
-<h1>Résumé</h1>
+
+<div class="resume-header">
+  <h1>Résumé</h1>
+  {% include social-links.html %}
+</div>
+
 <hr class="resume-divider">
+
 
 <div class="resume-grid">
 

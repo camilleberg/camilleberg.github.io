@@ -4,11 +4,11 @@ layout: cv
 permalink: /cv/
 ---
 
+<div class="resume-header">
 <h1>Curriculum Vitae</h1>
+  {% include social-links.html %}
+</div>
 <hr class="resume-divider">
-
-
-
 
   <!-- ── RIGHT MAIN COLUMN ─────────────────────────────────── -->
   <main class="resume-section">

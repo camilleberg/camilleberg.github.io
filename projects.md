@@ -3,7 +3,11 @@ title: Projects
 layout: projects-page
 ---
 
-<h1>Projects</h1>
+<div class="resume-header">
+  <h1>Projects</h1>
+  {% include social-links.html %}
+</div>
+
 <hr class="projects-divider">
 
 <!-- ── PROJECT 1 ─────────────────────────────────────────────── -->

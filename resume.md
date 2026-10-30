@@ -149,7 +149,7 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Fellowship funding for Ph.D.</span>
-        <span class="resume-entry-date">2024-present</span>
+        <span class="resume-entry-date">2024 - present</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
@@ -157,7 +157,7 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Massachusetts High Demand Scholarship</span>
-        <span class="resume-entry-date">2018-2021</span>
+        <span class="resume-entry-date">2018 - 2021</span>
       </div>
       <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>
@@ -165,7 +165,7 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Dean's Award</span>
-        <span class="resume-entry-date">2018-2021</span>
+        <span class="resume-entry-date">2018 - 2021</span>
       </div>
       <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
@@ -181,7 +181,7 @@ layout: resume
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">John and Abigail Adams Scholarship</span>
-        <span class="resume-entry-date">2018-2021</span>
+        <span class="resume-entry-date">2018 - 2021</span>
       </div>
       <div class="resume-entry-subtitle">Commonwealth of Massachusetts</div>
     </div>

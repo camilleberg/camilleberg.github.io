@@ -91,6 +91,18 @@ layout: resume
 
     <div class="resume-entry">
       <div class="resume-entry-header">
+        <span class="resume-entry-title">Data Visualization Developer</span>
+        <span class="resume-entry-date">June 2026 – present</span>
+      </div>
+      <div class="resume-entry-subtitle"> Congressional Communities, Los Angelos CA</div>
+      <ul>
+        <li>Designed and implemented a self-hosted interactive dashboard visualizations</li>
+      </ul>
+    </div>
+    
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
         <span class="resume-entry-title">Research Associate (promoted from Research Assistant and Data Analyst)</span>
         <span class="resume-entry-date">March 2022 – May 2024</span>
       </div>

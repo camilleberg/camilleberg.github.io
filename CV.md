@@ -52,17 +52,9 @@ permalink: /cv/
 
     <div class="resume-entry">
       <div class="resume-entry-header">
-        <span class="resume-entry-title">Primary Field</span>
+        <span class="resume-entry-title">Primary Fields: Development and Econometrics</span>
       </div>
-      <div class="resume-entry-subtitle">Development and Econometrics
-      </div>
-    </div>
-
-    <div class="resume-entry">
-      <div class="resume-entry-header">
-        <span class="resume-entry-title">Interests</span>
-      </div>
-      <div class="resume-entry-subtitle">Labor, Gender, Casusal Inference, Modeling
+      <div class="resume-entry-subtitle">Interests: Labor, Gender, Casusal Inference, Modeling
       </div>
     </div>
 
@@ -94,7 +86,7 @@ permalink: /cv/
 
     <h2>Research Experience</h2>
 
-    
+
 
     <h2>Awards & Grants</h2>
 
@@ -147,6 +139,22 @@ permalink: /cv/
     </div>
 
     <h2>Service</h2>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Board Member</span>
+        <span class="resume-entry-date">2025-present</span>
+      </div>
+      <div class="resume-entry-subtitle">Women in Economics</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Volunteer</span>
+        <span class="resume-entry-date">2026-present</span>
+      </div>
+      <div class="resume-entry-subtitle">Chinatown-ID Business Improvement Area</div>
+    </div>
 
   </main>
 

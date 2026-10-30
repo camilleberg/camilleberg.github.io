@@ -37,7 +37,7 @@ permalink: /cv/
         <span class="resume-entry-title">B.S. Mathematics (Statistics and Data Science)</span>
         <span class="resume-entry-date">2018 – 2021</span>
       </div>
-      <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
 
      <div class="resume-entry">
@@ -45,7 +45,7 @@ permalink: /cv/
         <span class="resume-entry-title">B.A. Economics</span>
         <span class="resume-entry-date">2018 – 2021</span>
       </div>
-      <div class="resume-entry-subtitle">Univsersity of Massachusetts Amherst</div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
     </div>
 
     <h2>Research Interests</h2>
@@ -71,7 +71,7 @@ permalink: /cv/
     <div class="resume-entry">
       <div class="resume-entry-header">
         <span class="resume-entry-title">Graduate Teaching Assistant</span>
-        <span class="resume-entry-date">2024-present</span>
+        <span class="resume-entry-date">2024-2026</span>
       </div>
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
@@ -84,9 +84,39 @@ permalink: /cv/
       <div class="resume-entry-subtitle">University of Washington</div>
     </div>
 
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Admissions Reader</span>
+        <span class="resume-entry-date">2021-2022</span>
+      </div>
+      <div class="resume-entry-subtitle">University of Massachusetts Amherst</div>
+    </div>
+
     <h2>Research Experience</h2>
 
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Research Associate</span>
+        <span class="resume-entry-date">2023-2024</span>
+      </div>
+      <div class="resume-entry-subtitle">Boston Planning and Development Agency</div>
+    </div>
 
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Research Assistant and Data Analyst</span>
+        <span class="resume-entry-date">2022-2023</span>
+      </div>
+      <div class="resume-entry-subtitle">Boston Planning and Development Agency</div>
+    </div>
+
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <span class="resume-entry-title">Research Intern</span>
+        <span class="resume-entry-date">2022</span>
+      </div>
+      <div class="resume-entry-subtitle">Verité</div>
+    </div>
 
     <h2>Awards & Grants</h2>
 

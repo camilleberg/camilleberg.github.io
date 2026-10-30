@@ -100,7 +100,7 @@ layout: resume
         <span class="resume-entry-title">Data Visualization Developer</span>
         <span class="resume-entry-date">June 2026 – present</span>
       </div>
-      <div class="resume-entry-subtitle"> Congressional Communities, Los Angelos CA</div>
+      <div class="resume-entry-subtitle"> Congressional Communities, Los Angeles CA</div>
       <ul>
         <li>Designed and implemented a self-hosted interactive dashboard visualizations</li>
       </ul>
